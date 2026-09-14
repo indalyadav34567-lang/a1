@@ -73,46 +73,50 @@
   </div>
   <div id="drawer-overlay" class="drawer-overlay"></div>
 
-  <!-- SECTION 1: EDITORIAL HERO SHOWCASE WITH HYDROSTATIC SPEC BADGES -->
+  <!-- SECTION 1: TACTICAL EDITORIAL HERO SHOWCASE WITH OFFICIAL DEPARTMENT INSIGNIA -->
   <section class="section" style="padding: 5rem 0 5.5rem; background: linear-gradient(180deg, #EDF2F7 0%, #F8FAFC 100%);">
     <div class="container">
       <div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 4rem; align-items: center;">
         <div>
           <span style="display: inline-block; background: #E2E8F0; color: #0F172A; border: 1px solid rgba(15, 23, 42, 0.2); padding: 0.35rem 0.95rem; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; border-radius: 50px; margin-bottom: 1.2rem;">
-            VULCANIZED BONDED COTTON &bull; SINCE 1824 HERITAGE
+            TACTICAL PATROL SPECIFICATION &bull; ALL-WEATHER MUNICIPAL DIVISION
           </span>
           <h1 style="margin-bottom: 1.2rem; font-size: clamp(2.4rem, 4.5vw, 3.8rem); line-height: 1.15; color: #0F172A;">
-            The Master of British Stormproof Outercoats
+            Tactical Stormproof Outercoats &amp; All-Weather Patrol Rainwear
           </h1>
           <p class="lead" style="margin-bottom: 1.8rem; font-size: 1.12rem; line-height: 1.75; color: #334155;">
-            Architectural outerwear engineered from Scottish Harris tweed, stormproof Italian technical membranes, and hand-padded horsehair canvas.
+            Engineered from dual-ply Scottish cotton bonded with vulcanized natural Para rubber, designed for severe metropolitan downpours, tactical duty mobility, and impenetrable storm defense.
           </p>
           <div style="display: flex; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 2.2rem; font-size: 0.88rem; color: #475569;">
-            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> 20,000mm Hydrostatic Head</span>
-            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> Hand-Taped Seam Welds</span>
-            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> Scottish Cotton Gabardine</span>
+            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> 20,000mm Hydrostatic Impermeability</span>
+            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> Tactical Duty Mobility &amp; Underarm Eyelets</span>
+            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> Hand-Taped Natural Rubber Welds</span>
           </div>
           <div style="display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center; margin-bottom: 2.5rem;">
-            <a href="/collection.html" class="btn btn-primary">Explore Outerwear Vault &rarr;</a>
+            <a href="/collection.html" class="btn btn-primary">Explore Tactical Outerwear &rarr;</a>
             <a href="/about.html" class="btn btn-outline">The Mercer St Atelier</a>
           </div>
           <div style="display: flex; align-items: center; gap: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border);">
             <div style="color: #D97706; font-size: 1.1rem; letter-spacing: 0.1em;">★★★★★</div>
             <div style="font-size: 0.86rem; color: #475569;">
-              <strong>4.97 / 5.0 Rating</strong> &bull; Over 8,500+ Weatherproof Commutes in Manhattan &amp; London
+              <strong>4.98 / 5.0 Tactical Rating</strong> &bull; Trusted by Metropolitan Patrol Officers &amp; Field Connoisseurs
             </div>
           </div>
         </div>
         <div style="position: relative;">
           <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--color-border); background: #FFF;">
-            <img src="/assets/images/urban_commuter_rain_parka.jpg" alt="Macintoshcoat flagship bonded rain parka" style="width: 100%; height: auto;">
+            <img src="/assets/images/technical_mountain_shell_graphite.jpg" alt="Macintoshcoat tactical all-weather stormcoat" style="width: 100%; height: auto;">
           </div>
-          <div style="position: absolute; bottom: -1rem; left: 1.5rem; background: #FFFFFF; border: 1px solid var(--color-border); padding: 0.85rem 1.4rem; border-radius: var(--radius-sm); box-shadow: var(--shadow-md); display: flex; align-items: center; gap: 0.8rem;">
-            <span style="font-size: 1.3rem;">🌧️</span>
+          <!-- Floating Official Department Insignia Patch Card -->
+          <div style="position: absolute; bottom: -1.5rem; right: -1rem; background: #0F172A; border: 2px solid rgba(255, 255, 255, 0.25); padding: 0.85rem 1.4rem; border-radius: var(--radius-md); box-shadow: var(--shadow-lg); display: flex; align-items: center; gap: 1rem; max-width: 340px;">
+            <img src="/assets/images/los_angeles_police_insignia_patch.png" alt="Los Angeles Police Official Department Insignia Patch" style="width: 72px; height: auto; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.7)); border-radius: 4px;">
             <div>
-              <div style="font-size: 0.82rem; font-weight: 700; color: #0F172A; text-transform: uppercase;">100% Waterproof Impermeable Rating</div>
-              <div style="font-size: 0.75rem; color: #64748B;">Zero capillary needle-leakage &bull; Rated -5°C to +15°C</div>
+              <div style="font-size: 0.88rem; font-weight: 700; color: #FFFFFF; text-transform: uppercase; letter-spacing: 0.05em;">Los Angeles Police</div>
+              <div style="font-size: 0.76rem; color: #94A3B8; line-height: 1.35;">Tactical All-Weather Division &bull; 100% Impermeable Rating</div>
             </div>
+          </div>
+          <div style="position: absolute; top: 1.2rem; left: 1.2rem; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 0.5rem 1rem; border-radius: var(--radius-pill); font-size: 0.75rem; font-weight: 700; color: #FFFFFF; letter-spacing: 0.05em;">
+            MUNICIPAL DUTY SPEC &bull; 20,000mm
           </div>
         </div>
       </div>
@@ -170,7 +174,7 @@
         <div class="paid-product-card">
           <span class="paid-product-badge">Master Trench</span>
           <div class="paid-product-img-wrap">
-            <img src="/assets/images/artisan_quilted_trench_coat.jpg" alt="The Mercer Bonded Cotton Trench">
+            <img src="/assets/images/micro_ripstop_cordura_fibers.jpg" alt="The Mercer Bonded Cotton Trench">
           </div>
           <div class="paid-product-body">
             <div class="paid-product-rating">★★★★★ <span>(142)</span></div>
@@ -193,7 +197,7 @@
         <div class="paid-product-card">
           <span class="paid-product-badge">Iconic Raincoat</span>
           <div class="paid-product-img-wrap">
-            <img src="/assets/images/technical_mountain_shell_graphite.jpg" alt="The Highland Single-Breasted Mac">
+            <img src="/assets/images/ret_sweating_hot_plate_apparatus.jpg" alt="The Highland Single-Breasted Mac">
           </div>
           <div class="paid-product-body">
             <div class="paid-product-rating">★★★★★ <span>(218)</span></div>
@@ -216,7 +220,7 @@
         <div class="paid-product-card">
           <span class="paid-product-badge">Sub-Zero Shield</span>
           <div class="paid-product-img-wrap">
-            <img src="/assets/images/urban_commuter_rain_parka.jpg" alt="The Stormproof Commuter Rain Parka">
+            <img src="/assets/images/los_angeles_police_insignia_patch.png" alt="The Stormproof Commuter Rain Parka">
           </div>
           <div class="paid-product-body">
             <div class="paid-product-rating">★★★★★ <span>(95)</span></div>
@@ -239,7 +243,7 @@
         <div class="paid-product-card">
           <span class="paid-product-badge">Classic Car Coat</span>
           <div class="paid-product-img-wrap">
-            <img src="/assets/images/ergonomic_raglan_sleeve_cut.jpg" alt="The Raglan Commuter Car Coat">
+            <img src="/assets/images/ultrasonic_welded_seam_tape.jpg" alt="The Raglan Commuter Car Coat">
           </div>
           <div class="paid-product-body">
             <div class="paid-product-rating">★★★★★ <span>(310)</span></div>
@@ -266,7 +270,7 @@
     <div class="container">
       <div style="display: grid; grid-template-columns: 1fr 1.15fr; gap: 4rem; align-items: center;">
         <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
-          <img src="/assets/images/waterproof_membrane_cross_section.jpg" alt="Waterproof bonded membrane cross section analysis">
+          <img src="/assets/images/3_layer_laminate_textile.jpg" alt="Waterproof bonded membrane cross section analysis">
         </div>
         <div>
           <div class="section-subtitle">Textile Engineering &bull; Vulcanized Metallurgy</div>
@@ -369,7 +373,7 @@
           </div>
         </div>
         <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
-          <img src="/assets/images/dwr_water_droplet_beading.jpg" alt="Water droplet pearl beading on bonded gabardine">
+          <img src="/assets/images/waterproof_membrane_cross_section.jpg" alt="Water droplet pearl beading on bonded gabardine">
         </div>
       </div>
     </div>
@@ -445,7 +449,7 @@
       <div class="grid-4">
         <div class="card">
           <div class="card-image-wrap">
-            <img src="/assets/images/artisan_quilt_atelier_craftsmanship.jpg" alt="The Wall Street Gale Suit Pairing">
+            <img src="/assets/images/artisan_quilted_trench_coat.jpg" alt="The Wall Street Gale Suit Pairing">
             <span class="card-tag">Business Tailoring</span>
           </div>
           <div class="card-body">
@@ -455,7 +459,7 @@
         </div>
         <div class="card">
           <div class="card-image-wrap">
-            <img src="/assets/images/about_alpine_atelier.jpg" alt="The Transatlantic Voyage Pairing">
+            <img src="/assets/images/artisan_quilt_atelier_craftsmanship.jpg" alt="The Transatlantic Voyage Pairing">
             <span class="card-tag">Travel Capsule</span>
           </div>
           <div class="card-body">
@@ -465,7 +469,7 @@
         </div>
         <div class="card">
           <div class="card-image-wrap">
-            <img src="/assets/images/aviator_silhouette_pattern_drafting.jpg" alt="The Highland Estate Pairing">
+            <img src="/assets/images/about_alpine_atelier.jpg" alt="The Highland Estate Pairing">
             <span class="card-tag">Country Estate</span>
           </div>
           <div class="card-body">
@@ -475,7 +479,7 @@
         </div>
         <div class="card">
           <div class="card-image-wrap">
-            <img src="/assets/images/storm_hood_cinch_detail.jpg" alt="The Torrential Commute">
+            <img src="/assets/images/technical_mountain_shell_graphite.jpg" alt="The Torrential Commute">
             <span class="card-tag">Storm Defense</span>
           </div>
           <div class="card-body">
@@ -492,7 +496,7 @@
     <div class="container">
       <div class="grid-2">
         <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
-          <img src="/assets/images/about_alpine_atelier.jpg" alt="The Mercer Street tailoring studio and fitting chamber">
+          <img src="/assets/images/artisan_quilt_atelier_craftsmanship.jpg" alt="The Mercer Street tailoring studio and fitting chamber">
         </div>
         <div>
           <div class="section-subtitle">Manhattan Atelier &bull; Bespoke Heritage</div>

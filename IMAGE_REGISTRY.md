@@ -4,6 +4,7 @@ Documenting 20 authentic high-resolution images (>20KB) for macintoshcoat in nic
 
 | File Name | Size (KB) | SHA256 Hash | Visual Subject |
 | :--- | :--- | :--- | :--- |
+| `los_angeles_police_insignia_patch.png` | 268.3 KB | `34a2461a3cb8b895...` | Los Angeles Police Insignia Patch |
 | `urban_commuter_rain_parka.jpg` | 164.9 KB | `64bc8c87a37a05cc...` | Urban Commuter Rain Parka |
 | `3_layer_laminate_textile.jpg` | 74.6 KB | `70dae05d91b66ffc...` | 3 Layer Laminate Textile |
 | `waterproof_membrane_cross_section.jpg` | 79.8 KB | `ded17274ea1760e5...` | Waterproof Membrane Cross Section |
@@ -23,7 +24,6 @@ Documenting 20 authentic high-resolution images (>20KB) for macintoshcoat in nic
 | `artisan_quilted_trench_coat.jpg` | 289.4 KB | `d7211e5712da6fed...` | Artisan Quilted Trench Coat |
 | `artisan_quilt_atelier_craftsmanship.jpg` | 90.0 KB | `45589f60da31be71...` | Artisan Quilt Atelier Craftsmanship |
 | `about_alpine_atelier.jpg` | 224.8 KB | `47416dfdbb806420...` | About Alpine Atelier |
-| `aviator_silhouette_pattern_drafting.jpg` | 161.8 KB | `329f36b21d289f01...` | Aviator Silhouette Pattern Drafting |
 
 - Total Images: 20
 - Hashes: 100% Unique

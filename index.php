@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bespoke Vulcanized Rainwear & Master Outercoats — Macintoshcoat</title>
-  <meta name="description" content="Architectural outerwear engineered from Scottish Harris tweed, stormproof Italian technical membranes, and hand-padded horsehair canvas.">
+  <title>Master British Vulcanized Outercoats &amp; Bespoke Tailoring | Macintoshcoat</title>
+  <meta name="description" content="The definitive benchmark of British stormproof outerwear. Handcrafted bonded Scottish cotton, heavy shearling aviators, and bespoke tailoring at 181 Mercer Street.">
   <link rel="canonical" href="https://macintoshcoat.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
   <script>
@@ -18,293 +18,236 @@
     gtag('js', new Date());
     gtag('config', 'G-0LY0HY7L01');
   </script>
-
 </head>
 <body>
-  <!-- Top Weatherproof Dispatch Bar (Paid Outerwear Theme) -->
-  <div class="announcement-bar" style="background: #0F172A; color: #F8FAFC;">
-    <span>◈ WEATHERPROOF DISPATCH &bull; 100% WATERPROOF BONDED SCOTTISH COTTON &bull; 181 MERCER STREET MANHATTAN ATELIER &bull; WORLDWIDE EXPEDITED TRANSIT</span>
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span>◈ THE WINTER 2026 ARCHITECTURAL ARCHIVE &bull; 100% WATERPROOF BONDED VULCANIZED COTTON &bull; FLAGSHIP ATELIER AT 181 MERCER ST, NYC</span>
   </div>
 
-  <!-- Mandatory Global Site Header (Exactly 1 per page) -->
+  <!-- Mandatory Global Site Header -->
   <header class="site-header">
     <div class="header-container">
-      <a href="/" class="brand-logo" aria-label="Macintoshcoat Home">
-        <span class="logo-mark">◈</span>
-        <span class="logo-text">Macintoshcoat</span>
+      <a href="/" class="brand-logo">
+        <span class="brand-mark">◈</span>
+        <div>
+          <span>Macintoshcoat</span>
+          <span class="brand-sub">London &bull; New York</span>
+        </div>
       </a>
-      <nav class="desktop-nav" aria-label="Primary Navigation">
-        <a href="/" class="nav-link active">Home</a>
-        <a href="/about.html" class="nav-link">The Atelier</a>
-        <a href="/collection.html" class="nav-link">Collections</a>
-        <a href="/blog.html" class="nav-link">Treatises</a>
-        <a href="/contact.html" class="nav-link">Concierge</a>
+      <nav class="desktop-nav">
+        <a href="/" class="nav-link active">Home</a><a href="collection.html" class="nav-link">Collections</a><a href="about.html" class="nav-link">Atelier &amp; Craft</a><a href="blog.html" class="nav-link">Sartorial Treatises</a><a href="contact.html" class="nav-link">SoHo Salon</a>
       </nav>
       <div class="header-actions">
-        <a href="/collection.html" class="btn btn-sm btn-outline">Explore Catalog</a>
-        <button id="drawer-toggle" class="mobile-toggle" aria-label="Open Navigation Menu">
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
+        <a href="contact.html" class="btn btn-primary">Book Salon Fitting</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+          <span></span><span></span><span></span>
         </button>
       </div>
     </div>
   </header>
 
-  <!-- Mandatory Mobile Navigation Drawer (Exactly 1 per page) -->
-  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-    <div class="drawer-header">
-      <div class="drawer-brand">Macintoshcoat</div>
-      <button id="drawer-close" class="drawer-close-btn" aria-label="Close Navigation Menu">&times;</button>
+  <!-- Mandatory Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <button class="drawer-close" id="drawer-close" aria-label="Close Menu">&times;</button>
+    <div>
+      <div class="brand-logo" style="margin-bottom: 2rem;">◈ Macintoshcoat</div>
+      <ul class="mobile-nav-links">
+        <li><a href="/">Home</a></li><li><a href="collection.html">Collections</a></li><li><a href="about.html">Atelier &amp; Craft</a></li><li><a href="blog.html">Sartorial Treatises</a></li><li><a href="contact.html">SoHo Salon</a></li>
+      </ul>
     </div>
-    <nav class="drawer-nav" aria-label="Mobile Navigation">
-      <a href="/" class="drawer-link active">Home</a>
-      <a href="/about.html" class="drawer-link">The Atelier &amp; Craft</a>
-      <a href="/collection.html" class="drawer-link">Curated Outerwear Collection</a>
-      <a href="/blog.html" class="drawer-link">Sartorial Treatises</a>
-      <a href="/contact.html" class="drawer-link">Private Concierge</a>
-    </nav>
-    <div class="drawer-footer">
-      <p class="drawer-contact-title">Manhattan Atelier &amp; Suite</p>
-      <p class="drawer-contact-info">181 Mercer Street, New York, NY 10012, United States</p>
-      <p class="drawer-contact-info">Tel: +1-888-777-5845</p>
-      <p class="drawer-contact-info">Email: concierge@macintoshcoat.com</p>
+    <div style="margin-top: 2rem;">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Book Private Fitting</a>
+      <p style="font-size: 0.8rem; color: #64748B; margin-top: 1rem; line-height: 1.5;">
+        181 Mercer Street, New York, NY 10012<br>+1-888-777-5845
+      </p>
     </div>
   </div>
-  <div id="drawer-overlay" class="drawer-overlay"></div>
+  <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
 
-  <!-- SECTION 1: EDITORIAL HERO SHOWCASE WITH HYDROSTATIC SPEC BADGES -->
-  <section class="section" style="padding: 5rem 0 5.5rem; background: linear-gradient(180deg, #EDF2F7 0%, #F8FAFC 100%);">
+  <!-- SECTION 1: MONUMENTAL SPLIT HERO -->
+  <section class="hero-outerwear">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 4rem; align-items: center;">
-        <div>
-          <span style="display: inline-block; background: #E2E8F0; color: #0F172A; border: 1px solid rgba(15, 23, 42, 0.2); padding: 0.35rem 0.95rem; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; border-radius: 50px; margin-bottom: 1.2rem;">
-            VULCANIZED BONDED SCOTTISH COTTON &bull; SINCE 1824 HERITAGE
-          </span>
-          <h1 style="margin-bottom: 1.2rem; font-size: clamp(2.4rem, 4.5vw, 3.8rem); line-height: 1.15; color: #0F172A;">
-            The Master of British Stormproof Outercoats
-          </h1>
-          <p class="lead" style="margin-bottom: 1.8rem; font-size: 1.12rem; line-height: 1.75; color: #334155;">
-            Architectural outerwear engineered from Scottish cotton gabardine bonded with vulcanized natural Para rubber, hand-taped waterproof seams, and horn closures for impervious storm defense.
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="pill-badge">THE WINTER 2026 ARCHITECTURAL ARCHIVE</div>
+          <h1 class="hero-title">Impermeable Mastery. Handcrafted For The Storm.</h1>
+          <p class="hero-lead">
+            Forged from double-bonded Scottish cotton gabardine with a vulcanized natural Para rubber core, hand-taped waterproof seams, and horn closures. Engineered to defeat hurricane gale forces with pure sartorial elegance.
           </p>
-          <div style="display: flex; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 2.2rem; font-size: 0.88rem; color: #475569;">
-            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> 20,000mm Hydrostatic Head</span>
-            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> Hand-Taped Natural Rubber Welds</span>
-            <span style="display: flex; align-items: center; gap: 0.4rem;"><strong>◈</strong> Scottish Cotton Gabardine</span>
+          <div class="hero-cta-group">
+            <a href="/collection.html" class="btn btn-primary">Explore 2026 Collection</a>
+            <a href="/contact.html" class="btn btn-outline">Schedule Atelier Fitting</a>
           </div>
-          <div style="display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center; margin-bottom: 2.5rem;">
-            <a href="/collection.html" class="btn btn-primary">Explore Outerwear Vault &rarr;</a>
-            <a href="/about.html" class="btn btn-outline">The Mercer St Atelier</a>
-          </div>
-          <div style="display: flex; align-items: center; gap: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border);">
-            <div style="color: #D97706; font-size: 1.1rem; letter-spacing: 0.1em;">★★★★★</div>
-            <div style="font-size: 0.86rem; color: #475569;">
-              <strong>4.97 / 5.0 Rating</strong> &bull; Over 8,500+ Weatherproof Commutes in Manhattan &amp; London
+          <div class="hero-specs-row">
+            <div class="spec-box">
+              <span class="spec-val">28,000mm</span>
+              <span class="spec-label">Hydrostatic Head</span>
+            </div>
+            <div class="spec-box">
+              <span class="spec-val">-35&deg;C</span>
+              <span class="spec-label">Sub-Zero Thermal Seal</span>
+            </div>
+            <div class="spec-box">
+              <span class="spec-val">100%</span>
+              <span class="spec-label">Hand-Taped Seams</span>
             </div>
           </div>
         </div>
-        <div style="position: relative;">
-          <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--color-border); background: #FFF;">
-            <img src="/assets/images/urban_commuter_rain_parka.jpg" alt="Macintoshcoat flagship bonded rain parka" style="width: 100%; height: auto;">
-          </div>
-          <div style="position: absolute; bottom: -1rem; left: 1.5rem; background: #FFFFFF; border: 1px solid var(--color-border); padding: 0.85rem 1.4rem; border-radius: var(--radius-sm); box-shadow: var(--shadow-md); display: flex; align-items: center; gap: 0.8rem;">
-            <span style="font-size: 1.3rem;">🌧️</span>
-            <div>
-              <div style="font-size: 0.82rem; font-weight: 700; color: #0F172A; text-transform: uppercase;">100% Waterproof Impermeable Rating</div>
-              <div style="font-size: 0.75rem; color: #64748B;">Zero capillary needle-leakage &bull; Rated -5°C to +15°C</div>
+        <div class="hero-visual">
+          <div class="hero-image-frame">
+            <img src="/assets/images/hero_shearling_aviator_flight_jacket.jpg" alt="Hero Shearling Aviator Flight Jacket">
+            <div class="hero-floating-badge">FEATURED ARCHIVE PIECE &bull; SPEC 1824</div>
+            <div class="hero-floating-card">
+              <h4>B-3 Heavy Shearling Flight Coat</h4>
+              <p>Hand-cut natural sheepskin fleece, vegetable-tanned steerhide welts, solid brass hardware.</p>
             </div>
-          </div>
-          <div style="position: absolute; top: 1.2rem; left: 1.2rem; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 0.5rem 1rem; border-radius: var(--radius-pill); font-size: 0.75rem; font-weight: 700; color: #FFFFFF; letter-spacing: 0.05em;">
-            BRITISH TAILORING SPEC &bull; 20,000mm
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION 2: WEATHERPROOF PERFORMANCE & CERTIFICATION TRUST BAR -->
-  <section class="trust-bar" style="background: #FFFFFF;">
+  <!-- SECTION 2: HALLMARKS STRIP -->
+  <section class="hallmarks-bar">
     <div class="container">
-      <div class="trust-grid">
-        <div class="trust-item">
-          <div class="trust-icon-box" style="background: #E2E8F0; color: #0F172A;">🛡️</div>
-          <div>
-            <div class="trust-title">Vulcanized Para Rubber Core</div>
-            <p class="trust-desc">Natural rubber elastomeric sandwich barrier completely immune to driving rain penetration.</p>
+      <div class="hallmarks-grid">
+        <div class="hallmark-item">
+          <span class="hallmark-num">HALLMARK 01</span>
+          <h4 class="hallmark-title">Scottish Para Rubber Core</h4>
+          <p class="hallmark-desc">Patented 1824 vulcanization bonding natural latex between twin plies of combed cotton.</p>
+        </div>
+        <div class="hallmark-item">
+          <span class="hallmark-num">HALLMARK 02</span>
+          <h4 class="hallmark-title">Hand-Poured Seam Taping</h4>
+          <p class="hallmark-desc">Every seam is sealed by artisan hands using natural rubber solution to eliminate needle perforations.</p>
+        </div>
+        <div class="hallmark-item">
+          <span class="hallmark-num">HALLMARK 03</span>
+          <h4 class="hallmark-title">Sheffield &amp; Horn Hardware</h4>
+          <p class="hallmark-desc">Carved Buffalo horn buttons, solid brass Talon closures, and reinforced stress-point rivets.</p>
+        </div>
+        <div class="hallmark-item">
+          <span class="hallmark-num">HALLMARK 04</span>
+          <h4 class="hallmark-title">SoHo Atelier Servicing</h4>
+          <p class="hallmark-desc">Lifetime seasonal inspection, re-proofing, and custom monogramming at 181 Mercer Street.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: FLAGSHIP GALLERY MATRIX -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <div class="pill-badge">CURATED MASTERPIECES</div>
+        <h2>The 2026 Outerwear Catalog Matrix</h2>
+        <p>Four foundational silhouettes engineered for torrential precipitation, sub-zero alpine conditions, and urban formal elegance.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="coat-card">
+          <div class="coat-card-image">
+            <img src="/assets/images/artisan_quilted_trench_coat.jpg" alt="Artisan Quilted Trench Coat">
+            <div class="coat-card-badge">BONDED GABARDINE</div>
+            <div class="coat-card-price">$1,450</div>
+          </div>
+          <div class="coat-card-body">
+            <span class="coat-card-category">Double-Breasted Outercoat</span>
+            <h3 class="coat-card-title">The Highland Quilted Storm Trench</h3>
+            <p class="coat-card-desc">Architectural storm flap, deep throat latch, and quilted internal thermal membrane tailored for severe coastal gales.</p>
+            <div class="coat-card-footer">
+              <span class="coat-card-spec">◈ 28,000mm Waterproof</span>
+              <a href="/collection.html" class="btn btn-outline" style="padding:0.5rem 1.1rem; font-size:0.85rem;">View Garment</a>
+            </div>
           </div>
         </div>
-        <div class="trust-item">
-          <div class="trust-icon-box" style="background: #E2E8F0; color: #0F172A;">⚡</div>
-          <div>
-            <div class="trust-title">Hand-Taped Seam Welds</div>
-            <p class="trust-desc">Double-folded natural rubber tape applied over every seam line to eliminate needle stitch holes.</p>
+
+        <div class="coat-card">
+          <div class="coat-card-image">
+            <img src="/assets/images/baffle_quilted_down_puffer_jacket.jpg" alt="Baffle Quilted Down Puffer Jacket">
+            <div class="coat-card-badge">900 FILL GOOSE DOWN</div>
+            <div class="coat-card-price">$1,850</div>
+          </div>
+          <div class="coat-card-body">
+            <span class="coat-card-category">Sub-Zero Expedition</span>
+            <h3 class="coat-card-title">The Sub-Zero Baffle Down Parka</h3>
+            <p class="coat-card-desc">Seamless box-baffle construction preventing cold spots, filled with RDS-certified 900-fill European goose down.</p>
+            <div class="coat-card-footer">
+              <span class="coat-card-spec">◈ -35&deg;C Certified Barrier</span>
+              <a href="/collection.html" class="btn btn-outline" style="padding:0.5rem 1.1rem; font-size:0.85rem;">View Garment</a>
+            </div>
           </div>
         </div>
-        <div class="trust-item">
-          <div class="trust-icon-box" style="background: #E2E8F0; color: #0F172A;">🌿</div>
-          <div>
-            <div class="trust-title">Scottish Gabardine Shell</div>
-            <p class="trust-desc">Long-staple double-twisted cotton woven tightly to provide lifetime abrasion and tear resilience.</p>
+
+        <div class="coat-card">
+          <div class="coat-card-image">
+            <img src="/assets/images/high_altitude_quilted_alpine_coat.jpg" alt="High Altitude Quilted Alpine Coat">
+            <div class="coat-card-badge">3-LAYER HARD SHELL</div>
+            <div class="coat-card-price">$1,250</div>
+          </div>
+          <div class="coat-card-body">
+            <span class="coat-card-category">Alpine Mountaineering</span>
+            <h3 class="coat-card-title">The Alpine High-Altitude Stormcoat</h3>
+            <p class="coat-card-desc">Articulated raglan sleeve geometry, helmet-compatible storm hood, and dual-direction Aquaguard zip tracks.</p>
+            <div class="coat-card-footer">
+              <span class="coat-card-spec">◈ Zero Wind Penetration</span>
+              <a href="/collection.html" class="btn btn-outline" style="padding:0.5rem 1.1rem; font-size:0.85rem;">View Garment</a>
+            </div>
           </div>
         </div>
-        <div class="trust-item">
-          <div class="trust-icon-box" style="background: #E2E8F0; color: #0F172A;">📍</div>
-          <div>
-            <div class="trust-title">181 Mercer St Salon Dispatch</div>
-            <p class="trust-desc">Hand-tailored sleeve adjustments and express courier dispatch from our SoHo Manhattan atelier.</p>
+
+        <div class="coat-card">
+          <div class="coat-card-image">
+            <img src="/assets/images/featured_raf_irvin_sheepskin_coat.jpg" alt="RAF Irvin Sheepskin Coat">
+            <div class="coat-card-badge">NATURAL SHEARLING</div>
+            <div class="coat-card-price">$2,400</div>
+          </div>
+          <div class="coat-card-body">
+            <span class="coat-card-category">Heritage Aviation</span>
+            <h3 class="coat-card-title">The RAF Irvin Heavy Sheepskin Aviator</h3>
+            <p class="coat-card-desc">Faithfully reproduced to British Air Ministry 1938 specifications with 22mm unclipped shearling fleece and saddle-stitched seams.</p>
+            <div class="coat-card-footer">
+              <span class="coat-card-spec">◈ Lifetime Heirloom Grade</span>
+              <a href="/collection.html" class="btn btn-outline" style="padding:0.5rem 1.1rem; font-size:0.85rem;">View Garment</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION 3: FLAGSHIP OUTERWEAR VITRINE (PAID BOUTIQUE PRODUCT GRID) -->
+  <!-- SECTION 4: 3-TIER IMPERMEABILITY ANATOMY -->
   <section class="section">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="section-subtitle">Curated Outerwear Capsule</div>
-        <h2>Flagship Waterproof Outercoat Silhouettes</h2>
-        <p class="text-muted" style="max-width: 680px; margin: 0.8rem auto 0;">
-          Engineered to withstand monsoon cloudbursts while retaining razor-sharp sartorial elegance over business tailoring or casual knitwear.
-        </p>
-      </div>
-      <div class="grid-4">
-        <!-- Product 1 -->
-        <div class="paid-product-card">
-          <span class="paid-product-badge">Master Trench</span>
-          <div class="paid-product-img-wrap">
-            <img src="/assets/images/artisan_quilted_trench_coat.jpg" alt="The Mercer Bonded Cotton Trench">
-          </div>
-          <div class="paid-product-body">
-            <div class="paid-product-rating">★★★★★ <span>(142)</span></div>
-            <div class="paid-product-title">The Mercer Bonded Trench</div>
-            <div class="paid-product-price">
-              <span class="price-current">$895.00</span>
-              <span class="price-original">$1,150.00</span>
-            </div>
-            <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0.6rem;">Double-breasted storm flap, horn buckles, and vulcanized rubber core for gale-force downpours.</p>
-            <div class="swatch-group">
-              <span class="swatch-dot" style="background: #D4AF37;" title="British Honey"></span>
-              <span class="swatch-dot" style="background: #1E293B;" title="Midnight Navy"></span>
-              <span class="swatch-dot" style="background: #2D3748;" title="Charcoal"></span>
-            </div>
-            <a href="/collection.html" class="btn btn-sm btn-outline" style="margin-top: auto; width: 100%; text-align: center;">View Silhouette &rarr;</a>
-          </div>
-        </div>
-
-        <!-- Product 2 -->
-        <div class="paid-product-card">
-          <span class="paid-product-badge">Iconic Raincoat</span>
-          <div class="paid-product-img-wrap">
-            <img src="/assets/images/ret_sweating_hot_plate_apparatus.jpg" alt="The Highland Single-Breasted Mac">
-          </div>
-          <div class="paid-product-body">
-            <div class="paid-product-rating">★★★★★ <span>(218)</span></div>
-            <div class="paid-product-title">The Highland Single-Breasted Mac</div>
-            <div class="paid-product-price">
-              <span class="price-current">$780.00</span>
-              <span class="price-original">$960.00</span>
-            </div>
-            <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0.6rem;">Clean architectural lines with covered fly-front placket and detachable throat latch.</p>
-            <div class="swatch-group">
-              <span class="swatch-dot" style="background: #475569;" title="Slate"></span>
-              <span class="swatch-dot" style="background: #0F172A;" title="Black"></span>
-              <span class="swatch-dot" style="background: #A0AEC0;" title="Stone"></span>
-            </div>
-            <a href="/collection.html" class="btn btn-sm btn-outline" style="margin-top: auto; width: 100%; text-align: center;">View Silhouette &rarr;</a>
-          </div>
-        </div>
-
-        <!-- Product 3 -->
-        <div class="paid-product-card">
-          <span class="paid-product-badge">Sub-Zero Shield</span>
-          <div class="paid-product-img-wrap">
-            <img src="/assets/images/lightweight_parka_hero_banner.jpg" alt="The Stormproof Commuter Rain Parka">
-          </div>
-          <div class="paid-product-body">
-            <div class="paid-product-rating">★★★★★ <span>(95)</span></div>
-            <div class="paid-product-title">The Stormproof Commuter Parka</div>
-            <div class="paid-product-price">
-              <span class="price-current">$950.00</span>
-              <span class="price-original">$1,200.00</span>
-            </div>
-            <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0.6rem;">Triple-layer technical membrane paired with sealed storm hood and internal storm cuffs.</p>
-            <div class="swatch-group">
-              <span class="swatch-dot" style="background: #0F172A;" title="Onyx"></span>
-              <span class="swatch-dot" style="background: #1E3A8A;" title="Royal Navy"></span>
-              <span class="swatch-dot" style="background: #064E3B;" title="Racing Green"></span>
-            </div>
-            <a href="/collection.html" class="btn btn-sm btn-outline" style="margin-top: auto; width: 100%; text-align: center;">View Silhouette &rarr;</a>
-          </div>
-        </div>
-
-        <!-- Product 4 -->
-        <div class="paid-product-card">
-          <span class="paid-product-badge">Classic Car Coat</span>
-          <div class="paid-product-img-wrap">
-            <img src="/assets/images/ultrasonic_welded_seam_tape.jpg" alt="The Raglan Commuter Car Coat">
-          </div>
-          <div class="paid-product-body">
-            <div class="paid-product-rating">★★★★★ <span>(310)</span></div>
-            <div class="paid-product-title">The Raglan Commuter Car Coat</div>
-            <div class="paid-product-price">
-              <span class="price-current">$720.00</span>
-              <span class="price-original">$890.00</span>
-            </div>
-            <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0.6rem;">Raglan shoulder cut delivering unrestricted arm articulation over winter blazers and suit jackets.</p>
-            <div class="swatch-group">
-              <span class="swatch-dot" style="background: #C27D38;" title="British Tan"></span>
-              <span class="swatch-dot" style="background: #4B5563;" title="Graphite"></span>
-              <span class="swatch-dot" style="background: #CBD5E1;" title="Mist"></span>
-            </div>
-            <a href="/collection.html" class="btn btn-sm btn-outline" style="margin-top: auto; width: 100%; text-align: center;">View Silhouette &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 4: DECONSTRUCTED BONDED FABRIC SCIENCE & CROSS-SECTION -->
-  <section class="section section-light">
-    <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1.15fr; gap: 4rem; align-items: center;">
-        <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
-          <img src="/assets/images/3_layer_laminate_textile.jpg" alt="Waterproof bonded membrane cross section analysis">
+      <div class="anatomy-grid">
+        <div class="anatomy-image-wrap">
+          <img src="/assets/images/b3_bomber_flight_jacket_heritage.jpg" alt="B-3 Heritage Bomber Jacket Construction">
         </div>
         <div>
-          <div class="section-subtitle">Textile Engineering &bull; Vulcanized Metallurgy</div>
-          <h2>The Anatomy of 100% Waterproof Bonded Cotton</h2>
-          <p>
-            Invented in 1823 by Scottish chemist Charles Macintosh, bonded rubberized cotton remains the gold standard in impermeable rainwear. While modern plastic membranes degrade within five seasons, our vulcanized natural rubber matrix develops enduring resilience.
-          </p>
-          <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1.8rem;">
-            <div class="anatomy-step">
-              <span class="step-badge">01</span>
-              <div>
-                <strong style="color: #0F172A;">Scottish Cotton Gabardine Outer Shell</strong>
-                <p style="font-size: 0.88rem; color: #475569; margin: 0.2rem 0 0;">High-twist 2-ply long-staple cotton treated with fluorine-free DWR causing water droplets to pearl and roll off immediately.</p>
+          <div class="pill-badge">THE ARCHITECTURAL CORE</div>
+          <h2>The 3-Tier Impermeability Architecture</h2>
+          <p>Unlike transient synthetic coatings that delaminate over time, our patented vulcanized bonded sandwich fuses two independent textile worlds into a single permanent molecular barrier.</p>
+          <div class="layers-stack">
+            <div class="layer-card">
+              <div class="layer-header">
+                <span class="layer-num">01</span>
+                <h4>Face: Long-Staple Scottish Combed Cotton</h4>
               </div>
+              <p>Woven at extreme density to naturally repel water droplets while presenting a refined matte sartorial handfeel suitable for Savile Row tailoring.</p>
             </div>
-            <div class="anatomy-step">
-              <span class="step-badge">02</span>
-              <div>
-                <strong style="color: #0F172A;">Vulcanized Natural Rubber Impermeable Core</strong>
-                <p style="font-size: 0.88rem; color: #475569; margin: 0.2rem 0 0;">A continuous microscopic layer of vulcanized Para rubber roller-applied under heat, guaranteeing 20,000mm hydrostatic resistance.</p>
+            <div class="layer-card">
+              <div class="layer-header">
+                <span class="layer-num">02</span>
+                <h4>Core: Vulcanized Natural Para Rubber Film</h4>
               </div>
+              <p>A continuous, micro-calibrated sheet of natural Malaysian Para rubber vulcanized between the fabrics, creating a 100% impenetrable barrier against standing water pressure.</p>
             </div>
-            <div class="anatomy-step">
-              <span class="step-badge">03</span>
-              <div>
-                <strong style="color: #0F172A;">Hand-Taped Waterproof Seam Integrity</strong>
-                <p style="font-size: 0.88rem; color: #475569; margin: 0.2rem 0 0;">Artisans apply rubberized tape by hand using hot irons over every internal stitch line, eliminating capillary rain leakage.</p>
+            <div class="layer-card">
+              <div class="layer-header">
+                <span class="layer-num">03</span>
+                <h4>Lining: Breathable Cupro-Twill Microclimate</h4>
               </div>
-            </div>
-            <div class="anatomy-step">
-              <span class="step-badge">04</span>
-              <div>
-                <strong style="color: #0F172A;">Solid Brass Eyelet Underarm Aeration</strong>
-                <p style="font-size: 0.88rem; color: #475569; margin: 0.2rem 0 0;">Five precision brass eyelets beneath each armhole create passive atmospheric convection to vent warm body vapor naturally.</p>
-              </div>
+              <p>A lustrous, anti-static inner twill lining that glides effortlessly over tailored suitings while expediting organic microclimate vapor dissipation.</p>
             </div>
           </div>
         </div>
@@ -312,122 +255,136 @@
     </div>
   </section>
 
-  <!-- SECTION 5: FOUR ARCHITECTURAL PILLARS OF TAILORING -->
-  <section class="section" style="background: #F8FAFC;">
-    <div class="container">
-      <div class="section-header text-center">
-        <div class="section-subtitle">Sartorial Benchmarks</div>
-        <h2>Four Architectural Pillars of Macintoshcoat</h2>
-        <p class="text-muted" style="max-width: 650px; margin: 0.8rem auto 0;">
-          Every garment fuses Savile Row tailoring precision with extreme-weather nautical engineering to deliver lifetime durability.
-        </p>
-      </div>
-      <div class="grid-4">
-        <div class="pillar-card">
-          <div class="pillar-icon">🧥</div>
-          <h3 style="font-size: 1.15rem; margin-bottom: 0.8rem;">Full Floating Canvas</h3>
-          <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">Hand-padded natural horsehair canvas providing anatomical drape that molds to the wearer over time.</p>
-        </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">🌧️</div>
-          <h3 style="font-size: 1.15rem; margin-bottom: 0.8rem;">Weatherproof Wool Membranes</h3>
-          <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">Laminated breathable microporous membranes beneath virgin wool outers for complete storm defense.</p>
-        </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">🔘</div>
-          <h3 style="font-size: 1.15rem; margin-bottom: 0.8rem;">Horn & Corozo Closures</h3>
-          <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">Natural burnished horn buttons cross-stitched with reinforced thread shanks for enduring structural integrity.</p>
-        </div>
-        <div class="pillar-card">
-          <div class="pillar-icon">🧵</div>
-          <h3 style="font-size: 1.15rem; margin-bottom: 0.8rem;">Double Bonded Saddle Seams</h3>
-          <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 0;">Heavy bonded thread saddle stitching executed across all stress seams for indestructible tensile permanence.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 6: FIBER PHYSICS & STORM DEFENSE SCIENCE -->
+  <!-- SECTION 5: EDITORIAL SILHOUETTES LOOKBOOK -->
   <section class="section section-light">
     <div class="container">
-      <div class="grid-2">
-        <div>
-          <div class="section-subtitle">Material Science &bull; Storm Dynamics</div>
-          <h2>Natural Fiber Physics & Storm Defense</h2>
-          <p>We reject petroleum-based synthetic shells that crack and peel. Instead, we pair virgin Scottish wools and Spanish Merino shearling with breathable Italian microporous membranes.</p>
-          <p>Our triple-layer technical laminate pair creates an impenetrable barrier against hurricane-force winds while permitting microscopic body moisture to evaporate freely.</p>
-          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-top: 2rem; border-top: 1px solid var(--color-border); padding-top: 1.5rem;">
-            <div>
-              <div style="font-size: 1.4rem; font-weight: 700; color: #0F172A; font-family: var(--font-serif);">20,000mm Hydrostatic Head</div>
-              <div style="font-size: 0.8rem; color: #64748B; text-transform: uppercase;">Hydrostatic Column</div>
-            </div>
-            <div>
-              <div style="font-size: 1.4rem; font-weight: 700; color: #0F172A; font-family: var(--font-serif);">25,000g/m² Vapor Permeability</div>
-              <div style="font-size: 0.8rem; color: #64748B; text-transform: uppercase;">Vapor Breathability</div>
-            </div>
-            <div>
-              <div style="font-size: 1.4rem; font-weight: 700; color: #0F172A; font-family: var(--font-serif);">Zero Cold Bridging</div>
-              <div style="font-size: 0.8rem; color: #64748B; text-transform: uppercase;">Thermal Cold Bridging</div>
-            </div>
+      <div class="section-header">
+        <div class="pill-badge">RUNWAY &amp; EXPEDITION</div>
+        <h2>Curated Silhouette Lookbook</h2>
+        <p>From downtown Manhattan executive commutes to severe highland trails, discover our expanded outerwear repertoire.</p>
+      </div>
+      <div class="lookbook-grid">
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/desert_mesa_expedition_quilted_parka.jpg" alt="Desert Mesa Storm Parka">
+          </div>
+          <div class="lookbook-body">
+            <h3 class="lookbook-title">Desert Mesa Storm Parka</h3>
+            <div class="lookbook-price">$1,650</div>
+            <p class="lookbook-desc">Extended thigh length, fleece handwarmer cargo pockets, and reinforced corduroy storm collar.</p>
           </div>
         </div>
-        <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
-          <img src="/assets/images/waterproof_membrane_cross_section.jpg" alt="Water droplet pearl beading on bonded gabardine">
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/heavy_wool_blend_quilted_overcoat.jpg" alt="Savile Quilted Wool Overcoat">
+          </div>
+          <div class="lookbook-body">
+            <h3 class="lookbook-title">Savile Quilted Wool Overcoat</h3>
+            <div class="lookbook-price">$1,950</div>
+            <p class="lookbook-desc">British Melton wool outer face bonded with an internal quilted thermal core for severe winter formal wear.</p>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/alpine_expedition_anorak_red.jpg" alt="Alpine Crimson Storm Anorak">
+          </div>
+          <div class="lookbook-body">
+            <h3 class="lookbook-title">Alpine Crimson Storm Anorak</h3>
+            <div class="lookbook-price">$890</div>
+            <p class="lookbook-desc">High-visibility alpine safety anorak with dual waterproof kangaroo pockets and taped chest gusset.</p>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/arctic_insulated_storm_parka.jpg" alt="Nordic Arctic Insulated Parka">
+          </div>
+          <div class="lookbook-body">
+            <h3 class="lookbook-title">Nordic Arctic Insulated Parka</h3>
+            <div class="lookbook-price">$2,100</div>
+            <p class="lookbook-desc">Engineered for sub-arctic conditions with detachable shearling ruff and internal waist cinch seals.</p>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/quilted_field_chore_coat.jpg" alt="Artisan Field Chore Coat">
+          </div>
+          <div class="lookbook-body">
+            <h3 class="lookbook-title">Artisan Field Chore Coat</h3>
+            <div class="lookbook-price">$780</div>
+            <p class="lookbook-desc">Rugged utility chore silhouette cut from diamond-quilted weatherproof cotton with rivet reinforcements.</p>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/quilted_shearling_collar_jacket.jpg" alt="Shearling Collar Commuter Blouson">
+          </div>
+          <div class="lookbook-body">
+            <h3 class="lookbook-title">Shearling Collar Commuter Blouson</h3>
+            <div class="lookbook-price">$1,350</div>
+            <p class="lookbook-desc">Cropped modern bomber silhouette featuring a detachable Spanish merino shearling throat collar.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION 7: HYDROSTATIC PRESSURE & METROLOGY COMPARISON TABLE -->
-  <section class="section" style="background: #F8FAFC;">
+  <!-- SECTION 6: METROLOGY & PERFORMANCE TABLE -->
+  <section class="section section-dark">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="section-subtitle">Metrology Benchmarks</div>
-        <h2>Stormproof Performance &amp; Metrology Testing</h2>
-        <p class="text-muted" style="max-width: 650px; margin: 0.8rem auto 0;">
-          Laboratory rain-tower testing comparing Macintoshcoat vulcanized outercoats against modern synthetic shells and budget fast-fashion rainwear.
-        </p>
+      <div class="section-header">
+        <div class="pill-badge pill-badge-dark">EMPIRICAL BENCHMARKS</div>
+        <h2>Metrology Benchmarking &amp; Storm Defense</h2>
+        <p>A rigorous empirical comparison demonstrating why vulcanized bonded cotton remains the superior choice over transient synthetics.</p>
       </div>
-      <div class="data-table-wrap">
-        <table class="spec-table">
+      <div class="metrology-wrap">
+        <table class="metrology-table">
           <thead>
             <tr>
-              <th>Metrological Metric</th>
-              <th>Macintoshcoat Bonded Cotton</th>
-              <th>Commercial Technical Gore-Tex Shell</th>
-              <th>Fast-Fashion Coated Polyester</th>
+              <th>Outerwear Construction</th>
+              <th>Hydrostatic Head</th>
+              <th>Wind Deflection</th>
+              <th>Longevity Horizon</th>
+              <th>Seam Impermeability</th>
+              <th>Aesthetic Integrity</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><strong>Hydrostatic Waterproof Column</strong></td>
-              <td>20,000 – 30,000 mm</td>
-              <td>28,000 mm (New) / Degrades after 3 yrs</td>
-              <td>3,000 – 5,000 mm (Leaks in 20 min)</td>
+            <tr class="highlight">
+              <td><strong>Macintoshcoat Bonded Cotton</strong> <span class="badge-gold">GOLD STANDARD</span></td>
+              <td>28,000 mm</td>
+              <td>100% (0.00 CFM)</td>
+              <td>30+ Years (Heirloom)</td>
+              <td>Hand-Taped Vulcanized Solution</td>
+              <td>Sartorial Matte Drape</td>
             </tr>
             <tr>
-              <td><strong>Seam Sealing Method</strong></td>
-              <td>Hand-Taped Natural Rubber Welds</td>
-              <td>Heat-Glued Synthetic Polyurethane Tape</td>
-              <td>Unsealed Machine Stitching (Prone to leaks)</td>
+              <td>Traditional Waxed Cotton</td>
+              <td>5,000 mm</td>
+              <td>85% Deflection</td>
+              <td>5–8 Years (Oiling required)</td>
+              <td>Stitched Needle Holes Leak</td>
+              <td>Oily Wax Transfer</td>
             </tr>
             <tr>
-              <td><strong>Wind Shear Resistance</strong></td>
-              <td>100% Impermeable to 110 km/h</td>
-              <td>100% Impermeable to 90 km/h</td>
-              <td>Permeable seam leaks under 45 km/h</td>
+              <td>Standard Synthetic Hard Shell</td>
+              <td>15,000 mm</td>
+              <td>92% Deflection</td>
+              <td>3–5 Years (Membrane crumbles)</td>
+              <td>Heat-Welded Polyurethane Tape</td>
+              <td>Synthetic Swish Noise</td>
             </tr>
             <tr>
-              <td><strong>Garment Expected Lifespan</strong></td>
-              <td>25 – 40 Years (Recraftable at 181 Mercer)</td>
-              <td>4 – 7 Years (Membrane Delamination)</td>
-              <td>1 – 2 Seasons (Cracking &amp; Flaking)</td>
-            </tr>
-            <tr>
-              <td><strong>Microplastic Shedding</strong></td>
-              <td>0% (100% Biodegradable Scottish Cotton)</td>
-              <td>High (Synthetic Microfiber Shedding)</td>
-              <td>Extreme (Petroleum-based Polyester)</td>
+              <td>Commercial Down Quilted Shell</td>
+              <td>3,000 mm</td>
+              <td>75% Deflection</td>
+              <td>4–6 Years (Feather puncture)</td>
+              <td>Quilt Stitches Form Water Channels</td>
+              <td>Puffy Technical Volume</td>
             </tr>
           </tbody>
         </table>
@@ -435,216 +392,249 @@
     </div>
   </section>
 
-  <!-- SECTION 8: CLIMATE VERSATILITY & WARDROBE LOOKBOOK -->
-  <section class="section section-light">
+  <!-- SECTION 7: ATELIER & MASTER CRAFTSMANSHIP -->
+  <section class="section">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="section-subtitle">Sartorial Wardrobe Styling</div>
-        <h2>Designed for Diverse Global Climates</h2>
-        <p class="text-muted" style="max-width: 650px; margin: 0.8rem auto 0;">
-          From driving Atlantic tempests to brisk Manhattan commutes, Macintoshcoat accommodates tailored suits, thick knitwear, or unlined spring layers.
-        </p>
-      </div>
-      <div class="grid-4">
-        <div class="card">
-          <div class="card-image-wrap">
-            <img src="/assets/images/artisan_quilt_atelier_craftsmanship.jpg" alt="The Wall Street Gale Suit Pairing">
-            <span class="card-tag">Business Tailoring</span>
-          </div>
-          <div class="card-body">
-            <h3 style="font-size: 1.15rem;">The Wall Street Gale</h3>
-            <p style="font-size: 0.86rem; color: #475569;">Generous shoulder drape designed to layer cleanly over bespoke double-breasted woolen blazers without sleeve bunching.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap">
-            <img src="/assets/images/about_alpine_atelier.jpg" alt="The Transatlantic Voyage Pairing">
-            <span class="card-tag">Travel Capsule</span>
-          </div>
-          <div class="card-body">
-            <h3 style="font-size: 1.15rem;">The Transatlantic Traveler</h3>
-            <p style="font-size: 0.86rem; color: #475569;">Unstructured raglan construction folds smoothly into cabin baggage while resisting transit creasing upon arrival.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap">
-            <img src="/assets/images/aviator_silhouette_pattern_drafting.jpg" alt="The Highland Estate Pairing">
-            <span class="card-tag">Country Estate</span>
-          </div>
-          <div class="card-body">
-            <h3 style="font-size: 1.15rem;">The Highland Estate</h3>
-            <p style="font-size: 0.86rem; color: #475569;">Pairs harmoniously with heavy cable knits, whipcord trousers, and Goodyear-welted country boots in damp terrain.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap">
-            <img src="/assets/images/technical_mountain_shell_graphite.jpg" alt="The Torrential Commute">
-            <span class="card-tag">Storm Defense</span>
-          </div>
-          <div class="card-body">
-            <h3 style="font-size: 1.15rem;">The Torrential Commute</h3>
-            <p style="font-size: 0.86rem; color: #475569;">Collar throat latch fastens securely against your jawline to form an impenetrable fortress against driving horizontal downpours.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 9: 181 MERCER STREET ATELIER & PRESERVATION PROTOCOL -->
-  <section class="section" style="background: #F8FAFC;">
-    <div class="container">
-      <div class="grid-2">
-        <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid var(--color-border);">
-          <img src="/assets/images/about_alpine_atelier.jpg" alt="The Mercer Street tailoring studio and fitting chamber">
-        </div>
+      <div class="atelier-grid">
         <div>
-          <div class="section-subtitle">Manhattan Atelier &bull; Bespoke Heritage</div>
-          <h2>Bespoke Fittings &amp; Care at 181 Mercer Street</h2>
+          <div class="pill-badge">SAVILE ROW &amp; SOHO ROOTS</div>
+          <h2>The Art of the Single-Needle Artisan Cutter</h2>
           <p>
-            Operating from our private Manhattan salon at 181 Mercer Street, New York, NY 10012, our master tailors provide customized sleeve adjustments, shoulder calibrations, and archival seam-welding restorations.
+            True vulcanized outerwear cannot be mass-produced by industrial automated lines. Because vulcanized rubber will not forgive a misplaced needle puncture, every single panel is chalked by eye and cut by hand using weighty Sheffield steel shears.
           </p>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.8rem;">
-            <div class="step-card">
-              <div class="step-number">01</div>
-              <h4 style="margin-bottom: 0.4rem;">Wild Boar Hair Brushing</h4>
-              <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0;">Brush garments after each outing using a natural wild boar bristle brush to dislodge atmospheric dust and grit.</p>
+          <p>
+            Our master coatmakers possess a minimum of fifteen years of bench experience. After cutting, seam edges are prepared with finger-applied natural rubber solution, folded, hammered, and sealed with waterproof tape to ensure lifelong hermetic integrity.
+          </p>
+          <div class="craft-pillars">
+            <div class="craft-pillar">
+              <h4>◈ Lifetime Seam Re-Tape</h4>
+              <p>Complimentary inspection and seam re-treatment for the lifetime of your coat.</p>
             </div>
-            <div class="step-card">
-              <div class="step-number">02</div>
-              <h4 style="margin-bottom: 0.4rem;">Contoured Cedar Hangers</h4>
-              <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0;">Rest overcoats on wide, contoured cedar hangers to support shoulder pads and allow natural cedar aroma to repel moths.</p>
+            <div class="craft-pillar">
+              <h4>◈ Individual Master Signature</h4>
+              <p>Each coat bears the bench artisan’s personal archival stamp in the chest pocket.</p>
             </div>
-            <div class="step-card">
-              <div class="step-number">03</div>
-              <h4 style="margin-bottom: 0.4rem;">Vapor Steaming, No Dry Press</h4>
-              <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0;">Revitalize wool crimp and floating horsehair canvas with vertical garment steaming. Never apply direct dry heat.</p>
+            <div class="craft-pillar">
+              <h4>◈ Horn &amp; Corozo Latches</h4>
+              <p>Turned and polished buttons made from genuine water buffalo horn and palm corozo.</p>
             </div>
-            <div class="step-card">
-              <div class="step-number">04</div>
-              <h4 style="margin-bottom: 0.4rem;">Annual Atelier Proofing</h4>
-              <p style="font-size: 0.85rem; color: #475569; margin-bottom: 0;">Return your coat to 181 Mercer Street every spring for complimentary button tightening, seam inspection, and wax re-nourishment.</p>
+            <div class="craft-pillar">
+              <h4>◈ Zero Plastic Microfibers</h4>
+              <p>100% natural cotton, biodegradable Para rubber, and silk threads that never shed plastic.</p>
             </div>
           </div>
+        </div>
+        <div class="atelier-image-frame">
+          <img src="/assets/images/master_leather_aviator_atelier.jpg" alt="Master Outerwear Tailoring Atelier">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION 10: PATRON TESTIMONIALS & COMMUTER FIELD REPORTS -->
+  <!-- SECTION 8: GLOBAL FIELD TESTING REPORTS -->
   <section class="section section-light">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="section-subtitle">Field Reports &bull; Discerning Patronage</div>
-        <h2>Trusted by Global Commuters</h2>
-        <p class="text-muted" style="max-width: 650px; margin: 0.8rem auto 0;">
-          Read unvarnished feedback from architects, executives, and sartorial connoisseurs who rely on Macintoshcoat in demanding weather conditions.
-        </p>
+      <div class="section-header">
+        <div class="pill-badge">CLIMATIC ENDURANCE</div>
+        <h2>Global Extreme Field Trials</h2>
+        <p>Our outerwear is tested where weather turns hostile—from gale-swept Scottish headlands to howling Manhattan avenue wind tunnels.</p>
       </div>
-      <div class="grid-3">
-        <div class="testimonial-card">
-          <div class="testimonial-rating">★★★★★</div>
-          <p class="testimonial-quote">&ldquo;Walking up Fifth Avenue in a driving November gale usually drenches any standard wool overcoat within ten blocks. My Macintoshcoat trench kept my bespoke suit bone dry while looking impeccably sharp in board meetings.&rdquo;</p>
-          <div class="testimonial-author">
-            <div class="testimonial-name">Julian Montgomery</div>
-            <div class="testimonial-role">Senior Managing Director &bull; Tribeca, NYC</div>
+      <div class="testing-grid">
+        <div class="test-card">
+          <div class="test-card-img">
+            <img src="/assets/images/pilot_flight_jacket_highland_test.jpg" alt="Field Pilot Highland Coat Testing">
+          </div>
+          <div class="test-card-body">
+            <div class="test-badge">REPORT 01 &bull; ISLE OF SKYE, SCOTLAND</div>
+            <h3 class="test-card-title">The Force 9 North Atlantic Gale Test</h3>
+            <p class="test-card-desc">
+              Subjected to 65-knot horizontal rain squalls on the Quiraing ridge for 14 continuous hours. The vulcanized core recorded 0.0% internal moisture penetration, maintaining internal core body warmth without thermal collapse.
+            </p>
+            <div class="test-stat">
+              <span><strong>Wind Resistance:</strong> 65 Knots Deflected</span>
+              <span><strong>Internal Moisture:</strong> 0.00%</span>
+            </div>
           </div>
         </div>
-        <div class="testimonial-card">
-          <div class="testimonial-rating">★★★★★</div>
-          <p class="testimonial-quote">&ldquo;The vulcanized bonded cotton has an unmistakable structural heft and drape that flimsy synthetic technical jackets cannot replicate. The hand-taped seams and horn buttons are masterclass craftsmanship.&rdquo;</p>
-          <div class="testimonial-author">
-            <div class="testimonial-name">Sir Edward Calthorpe</div>
-            <div class="testimonial-role">Architectural Historian &bull; Mayfair, London</div>
+
+        <div class="test-card">
+          <div class="test-card-img">
+            <img src="/assets/images/vintage_flight_pilot_leather_outerwear.jpg" alt="Manhattan Commuter Wind Tunnel Testing">
           </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-rating">★★★★★</div>
-          <p class="testimonial-quote">&ldquo;I scheduled a fitting at 181 Mercer Street and the tailors adjusted the raglan sleeve length to perfection within 48 hours. This coat will outlast me. An absolute masterpiece of rainwear engineering.&rdquo;</p>
-          <div class="testimonial-author">
-            <div class="testimonial-name">Alastair Finch</div>
-            <div class="testimonial-role">Creative Director &bull; SoHo, Manhattan</div>
+          <div class="test-card-body">
+            <div class="test-badge">REPORT 02 &bull; NEW YORK CITY</div>
+            <h3 class="test-card-title">The Manhattan Nor’easter Commuter Trial</h3>
+            <p class="test-card-desc">
+              Tested along the high-velocity wind corridors of Park Avenue and Mercer Street during freezing sleet transitions. The rigid collar throat latch and extended storm vent completely eliminated downdraft wind-chill.
+            </p>
+            <div class="test-stat">
+              <span><strong>Ambient Temp:</strong> -14&deg;C Wind Chill</span>
+              <span><strong>Thermal Retention:</strong> 99.4%</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION 11: TECHNICAL WEATHERPROOF FAQS ACCORDION -->
-  <section class="section" style="background: #F8FAFC;">
-    <div class="container" style="max-width: 900px;">
-      <div class="section-header text-center">
-        <div class="section-subtitle">Technical Inquiries</div>
+  <!-- SECTION 9: THE SOHO PRIVATE SALON -->
+  <section class="section">
+    <div class="container">
+      <div class="salon-grid">
+        <div class="salon-visual">
+          <img src="/assets/images/mercer_street_aviator_salon.jpg" alt="Mercer Street Private Outerwear Salon">
+        </div>
+        <div class="salon-card">
+          <div class="pill-badge">MANHATTAN FLAGSHIP</div>
+          <h2>The 181 Mercer Street Experience</h2>
+          <p>
+            Located in the historic cast-iron district of SoHo, our private salon provides an unhurried, discreet sanctuary for bespoke coat commissions and anatomical fitting consultations.
+          </p>
+          <div class="salon-contact-box">
+            <div class="salon-contact-line">
+              <strong>Address:</strong>
+              <span>181 Mercer Street, New York, NY 10012, United States</span>
+            </div>
+            <div class="salon-contact-line">
+              <strong>Phone:</strong>
+              <span>+1-888-777-5845</span>
+            </div>
+            <div class="salon-contact-line">
+              <strong>Hours:</strong>
+              <span>Mon – Sat: 10:00 AM – 7:00 PM EST (Sundays by Appointment)</span>
+            </div>
+            <div class="salon-contact-line">
+              <strong>Services:</strong>
+              <span>48-Point Anatomical Measuring, Bespoke Cloth Selection, Monogramming</span>
+            </div>
+          </div>
+          <div style="display:flex; gap:1rem;">
+            <a href="/contact.html" class="btn btn-primary">Schedule Private Salon Visit</a>
+            <a href="tel:+18887775845" class="btn btn-outline">Call Direct Concierge</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 10: PRESS ACCLAIM & CONNOISSEURS -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <div class="pill-badge">CRITICAL REPUTATION</div>
+        <h2>Acclaimed by Discerning Connoisseurs</h2>
+        <p>The definitive choice of international architects, expedition leaders, and sartorial purists.</p>
+      </div>
+      <div class="press-strip">
+        <div class="press-item">VOGUE HOMMES</div>
+        <div class="press-item">GQ BRITISH EDITION</div>
+        <div class="press-item">THE FINANCIAL TIMES</div>
+        <div class="press-item">ROBB REPORT</div>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">
+            “My Highland Quilted Trench has weathered torrential downpours across Edinburgh and Manhattan. It remains as structurally crisp and dry as the morning I collected it from Mercer Street.”
+          </p>
+          <div class="testimonial-author">
+            <strong>Julian Sterling, OBE</strong>
+            <span>Architect &bull; London &amp; New York</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">
+            “The vulcanized bonded cotton has zero synthetic crinkle or shine. It drapes over a bespoke suit like Savile Row flannel, yet water rolls off it like liquid mercury. Absolute perfection.”
+          </p>
+          <div class="testimonial-author">
+            <strong>Matteo Castiglione</strong>
+            <span>Creative Director &bull; Milan</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-quote">
+            “The private fitting at 181 Mercer Street was exceptional. The sleeve pitch and armhole depth were tailored specifically to allow full mobility without disturbing the coat’s silhouette.”
+          </p>
+          <div class="testimonial-author">
+            <strong>Dr. Elizabeth Vance</strong>
+            <span>Fellow in Materials Physics &bull; Zurich</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 11: TECHNICAL FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="pill-badge">DOMAIN CLARITY</div>
         <h2>Frequently Asked Questions</h2>
-        <p class="text-muted" style="margin-top: 0.5rem;">Everything you need to know regarding bonded cotton care, tailoring over blazers, and lifetime seam servicing.</p>
+        <p>Everything you need to know regarding vulcanized fabric physics, care, and bespoke fittings.</p>
       </div>
-      <div class="faq-section" style="margin-top: 2rem;">
+      <div class="faq-grid">
         <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            Does vulcanized bonded cotton have a distinct natural rubber scent?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            Yes. Authentic bonded outercoats possess a subtle, pleasant organic scent from the vulcanized natural Para rubber core. This organic aroma softens naturally over the first several weeks of ambient wear and is universally recognized by sartorial connoisseurs as the signature hallmark of genuine rubber-bonded rainwear.
-          </div>
+          <h4>◈ How does vulcanized bonded cotton differ from Gore-Tex or DWR coatings?</h4>
+          <p>
+            Standard DWR coatings wash away within seasons, and microporous synthetic membranes break down mechanically through flexing. Macintoshcoat vulcanized Para rubber is chemically fused between two cotton webs, creating a permanent, lifetime water barrier that cannot delaminate or wash off.
+          </p>
         </div>
+
         <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            How should I size my Macintoshcoat coat to wear over tailored blazers?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            Our coats are drafted with traditional British outerwear ease. If your chest measures 40 inches and you plan to wear your coat over bespoke suit jackets and thick knitwear, select size 40 (Medium). If you intend to wear the coat exclusively over lightweight shirts or t-shirts, you may consider sizing down one bracket for a trimmer silhouette.
-          </div>
+          <h4>◈ How should I clean and maintain my Macintoshcoat?</h4>
+          <p>
+            Never dry clean or machine wash vulcanized cotton. Sponge surface marks gently with lukewarm water and a clean cotton cloth. When not in use, hang on the wide-shouldered cedar hanger provided in a cool, ventilated wardrobe away from direct heat sources.
+          </p>
         </div>
+
         <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            What is the proper cleaning and care procedure for bonded outercoats?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            Never dry clean or machine wash your bonded coat, as chemical solvents dissolve natural vulcanized rubber. Simply sponge surface dirt gently with a clean damp sponge and lukewarm water. Always air-dry naturally on a wide contoured wooden hanger away from direct radiators or sunlight.
-          </div>
+          <h4>◈ Can damaged seams or worn areas be repaired?</h4>
+          <p>
+            Yes. Every Macintoshcoat comes with a lifetime atelier service guarantee. Return your garment to our Manhattan salon at 181 Mercer Street, where our artisans will re-tape seams and replenish hardware using authentic heritage materials.
+          </p>
         </div>
+
         <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            Can the waterproof seam tape be re-welded if damaged over decades?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            Yes. We provide complete factory recrafting and re-taping services at our Manhattan atelier at 181 Mercer Street. Our master craftsmen can re-bond seam tape, replace natural horn buttons, and condition the outer gabardine to restore full factory waterproofing.
-          </div>
+          <h4>◈ What is the timeline for a bespoke tailored commission?</h4>
+          <p>
+            A bespoke outerwear commission requires approximately 6 to 8 weeks from initial anatomical measuring at our Mercer Street salon through intermediate basted fitting to final hand-finished delivery.
+          </p>
         </div>
+
         <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            How do I book a private consultation at the 181 Mercer Street salon?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            Private fittings, fabric swatch inspections, and bespoke monogramming commissions can be scheduled directly by telephoning our Manhattan concierge at +1-888-777-5845 or emailing concierge@macintoshcoat.com. Walk-in appointments are also welcomed Tuesday through Saturday.
-          </div>
+          <h4>◈ What temperature range does your shearling collection support?</h4>
+          <p>
+            Our heavy shearling aviators and baffle-quilted down parkas are tested down to -35&deg;C (-31&deg;F), providing deep thermal protection in severe arctic squalls while maintaining natural breathability.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h4>◈ Do you offer international express insured delivery?</h4>
+          <p>
+            We provide complimentary white-glove courier shipping worldwide with full transit insurance. Delivery to North America and Western Europe is completed within 2 to 4 business days.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SECTION 12: VIP CONCIERGE & ARCHIVE INVITATION BANNER -->
-  <section class="section section-dark" style="padding: 5rem 0; text-align: center; background: #0F172A;">
-    <div class="container" style="max-width: 780px;">
-      <span class="hero-badge" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.3); color: #F8FAFC !important;">
-        JOIN THE OUTERWEAR GUILD
-      </span>
-      <h2 style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.2rem; color: #FFFFFF !important;">
-        Experience Stormproof Mastery with 15% Off Your Inaugural Coat
-      </h2>
-      <p style="font-size: 1.05rem; color: rgba(255, 255, 255, 0.85) !important; margin-bottom: 2.2rem; line-height: 1.7;">
-        Subscribe to receive private seasonal archive access, limited bonded trench drop notifications, and complimentary white-glove shipping on all orders dispatched from 181 Mercer Street.
-      </p>
-      <form style="display: flex; gap: 0.8rem; max-width: 500px; margin: 0 auto 1.5rem; flex-wrap: wrap;" onsubmit="event.preventDefault(); alert('Thank you for subscribing to The Outerwear Guild.');">
-        <input type="email" placeholder="Enter your email address..." required style="flex: 1; min-width: 260px; padding: 0.9rem 1.4rem; border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.25); background: rgba(255, 255, 255, 0.08); color: #FFF; font-size: 0.95rem;">
-        <button type="submit" class="btn btn-primary" style="white-space: nowrap; background: #FFFFFF; color: #0F172A !important;">Claim 15% Off</button>
-      </form>
-      <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.6);">
-        Protected by our Privacy Policy. Zero spam, unsubscribe at any moment. Dispatched from 181 Mercer Street, NY.
+  <!-- SECTION 12: VIP CLIENT ATELIER INVITATION -->
+  <section class="section section-sm" style="padding-bottom: 6rem;">
+    <div class="container">
+      <div class="vip-card">
+        <div class="pill-badge pill-badge-dark">PRIVATE INAUGURAL PRIVILEGES</div>
+        <h2>Join The Macintoshcoat Collector’s Circle</h2>
+        <p>
+          Receive private invitations to seasonal archive trunk shows, priority access to limited edition shearling drops, and complimentary hand-embroidered monogramming on your inaugural commission.
+        </p>
+        <form class="vip-form" onsubmit="event.preventDefault(); alert('Thank you. A concierge invitation has been dispatched to your email.');">
+          <input type="email" class="vip-input" placeholder="Enter your private email address" required>
+          <button type="submit" class="btn btn-primary" style="background:#FFFFFF; color:#0B0F19;">Request Atelier Invitation</button>
+        </form>
       </div>
     </div>
   </section>
@@ -656,7 +646,7 @@
         <div class="footer-col">
           <div class="footer-brand">◈ Macintoshcoat</div>
           <p class="footer-desc">
-            The benchmark of master outerwear & bespoke tailoring. Hand-finished artisanal creations crafted for connoisseurs with uncompromising material integrity.
+            The definitive master benchmark of British vulcanized stormproof outerwear and bespoke tailoring. Engineered with Scottish cotton gabardine and vulcanized Para rubber for absolute weather defense.
           </p>
           <div class="footer-contact-item"><strong>Address:</strong> 181 Mercer Street, New York, NY 10012, United States</div>
           <div class="footer-contact-item"><strong>Phone:</strong> +1-888-777-5845</div>
@@ -666,42 +656,44 @@
           <h4 class="footer-title">Atelier Navigation</h4>
           <ul class="footer-links">
             <li><a href="/">Home Gallery</a></li>
-            <li><a href="/about.html">Atelier &amp; Craft</a></li>
-            <li><a href="/collection.html">Collections</a></li>
-            <li><a href="/blog.html">Sartorial Treatises</a></li>
-            <li><a href="/contact.html">Private Concierge</a></li>
+            <li><a href="collection.html">2026 Archive Collections</a></li>
+            <li><a href="about.html">Atelier &amp; Craftsmanship</a></li>
+            <li><a href="blog.html">Sartorial Treatises</a></li>
+            <li><a href="contact.html">Private SoHo Salon</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4 class="footer-title">Authoritative Treatises</h4>
           <ul class="footer-links">
-            <li><a href="/blog/material-provenance-and-fiber-crystallography.html">Material Provenance</a></li>
-            <li><a href="/blog/micro-engineering-tolerances-and-finishing.html">Micro-Engineering</a></li>
-            <li><a href="/blog/biomechanical-ergonomics-and-wearer-physics.html">Ergonomic Physics</a></li>
-            <li><a href="/blog/sartorial-color-theory-and-formal-etiquette.html">Sartorial Etiquette</a></li>
-            <li><a href="/blog/hygroscopic-microclimate-thermodynamics.html">Thermodynamics</a></li>
-            <li><a href="/blog/bespoke-craftsmanship-and-heritage-methods.html">Heritage Craft</a></li>
+            <li><a href="blog/material-provenance-and-fiber-crystallography.html">Material Provenance</a></li>
+            <li><a href="blog/micro-engineering-tolerances-and-finishing.html">Micro-Engineering</a></li>
+            <li><a href="blog/biomechanical-ergonomics-and-wearer-physics.html">Ergonomic Physics</a></li>
+            <li><a href="blog/sartorial-color-theory-and-formal-etiquette.html">Sartorial Etiquette</a></li>
+            <li><a href="blog/hygroscopic-microclimate-thermodynamics.html">Thermodynamics</a></li>
+            <li><a href="blog/bespoke-craftsmanship-and-heritage-methods.html">Heritage Craft</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4 class="footer-title">Manhattan Salon</h4>
-          <p style="font-size:0.88rem; margin-bottom:1rem;">
-            Visit our private fitting lounge in SoHo for bespoke consultations and private commission viewings.
+          <p style="font-size:0.9rem; line-height: 1.6;">
+            Visit our private fitting lounge in SoHo for bespoke consultations and private archive commission viewings.
           </p>
-          <p style="font-size:0.85rem; color:#F59E0B; font-weight:600;">Mon – Sat: 10:00 AM – 7:00 PM EST<br>Sunday: By Appointment</p>
+          <div class="footer-hours-box">
+            <p>Mon – Sat: 10:00 AM – 7:00 PM EST<br><span style="color:#94A3B8; font-weight:400; font-size:0.82rem;">Sunday: By Private Appointment</span></p>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 Macintoshcoat Ltd. All Rights Reserved. Master craft at 181 Mercer Street, New York, NY 10012.</p>
         <div class="footer-legal-links">
-          <a href="/privacy-policy.html">Privacy Policy</a>
-          <a href="/terms-and-conditions.html">Terms &amp; Conditions</a>
-          <a href="/disclaimer.html">Disclaimer</a>
-          <a href="/cookie-policy.html">Cookie Policy</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+          <a href="disclaimer.html">Disclaimer</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
         </div>
       </div>
     </div>
   </footer>
-  <script src="/assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

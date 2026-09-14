@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sartorial Treatises & Technical Monographs — Macintoshcoat</title>
-  <meta name="description" content="Explore the authoritative research monographs published by Macintoshcoat.">
-  <link rel="canonical" href="https://macintoshcoat.com/blog.html">
+  <title>Sartorial Treatises &amp; Outerwear Science | Macintoshcoat</title>
+  <meta name="description" content="Read our authoritative technical monographs on vulcanized fabric physics, microclimate thermodynamics, and bespoke tailoring craft.">
+  <link rel="canonical" href="https://macintoshcoat.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
   <script>
@@ -18,123 +18,143 @@
     gtag('js', new Date());
     gtag('config', 'G-0LY0HY7L01');
   </script>
-
 </head>
 <body>
-  <!-- Mandatory Global Site Header (Exactly 1 per page) -->
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span>◈ THE WINTER 2026 ARCHITECTURAL ARCHIVE &bull; 100% WATERPROOF BONDED VULCANIZED COTTON &bull; FLAGSHIP ATELIER AT 181 MERCER ST, NYC</span>
+  </div>
+
+  <!-- Mandatory Global Site Header -->
   <header class="site-header">
     <div class="header-container">
-      <a href="/" class="brand-logo" aria-label="Macintoshcoat Home">
-        <span class="logo-mark">◈</span>
-        <span class="logo-text">Macintoshcoat</span>
+      <a href="/" class="brand-logo">
+        <span class="brand-mark">◈</span>
+        <div>
+          <span>Macintoshcoat</span>
+          <span class="brand-sub">London &bull; New York</span>
+        </div>
       </a>
-      <nav class="desktop-nav" aria-label="Primary Navigation">
-        <a href="/" class="nav-link">Home</a>
-        <a href="/about.html" class="nav-link">The Atelier</a>
-        <a href="/collection.html" class="nav-link">Collections</a>
-        <a href="/blog.html" class="nav-link active">Treatises</a>
-        <a href="/contact.html" class="nav-link">Concierge</a>
+      <nav class="desktop-nav">
+        <a href="/" class="nav-link">Home</a><a href="collection.html" class="nav-link">Collections</a><a href="about.html" class="nav-link">Atelier &amp; Craft</a><a href="blog.html" class="nav-link active">Sartorial Treatises</a><a href="contact.html" class="nav-link">SoHo Salon</a>
       </nav>
       <div class="header-actions">
-        <a href="/collection.html" class="btn btn-sm btn-outline">Explore Catalog</a>
-        <button id="drawer-toggle" class="mobile-toggle" aria-label="Open Navigation Menu">
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
+        <a href="contact.html" class="btn btn-primary">Book Salon Fitting</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+          <span></span><span></span><span></span>
         </button>
       </div>
     </div>
   </header>
 
-  <!-- Mandatory Mobile Navigation Drawer (Exactly 1 per page) -->
-  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-    <div class="drawer-header">
-      <div class="drawer-brand">Macintoshcoat</div>
-      <button id="drawer-close" class="drawer-close-btn" aria-label="Close Navigation Menu">&times;</button>
+  <!-- Mandatory Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <button class="drawer-close" id="drawer-close" aria-label="Close Menu">&times;</button>
+    <div>
+      <div class="brand-logo" style="margin-bottom: 2rem;">◈ Macintoshcoat</div>
+      <ul class="mobile-nav-links">
+        <li><a href="/">Home</a></li><li><a href="collection.html">Collections</a></li><li><a href="about.html">Atelier &amp; Craft</a></li><li><a href="blog.html">Sartorial Treatises</a></li><li><a href="contact.html">SoHo Salon</a></li>
+      </ul>
     </div>
-    <nav class="drawer-nav" aria-label="Mobile Navigation">
-      <a href="/" class="drawer-link">Home</a>
-      <a href="/about.html" class="drawer-link">The Atelier &amp; Craft</a>
-      <a href="/collection.html" class="drawer-link">Curated Outerwear Collection</a>
-      <a href="/blog.html" class="drawer-link active">Sartorial Treatises</a>
-      <a href="/contact.html" class="drawer-link">Private Concierge</a>
-    </nav>
-    <div class="drawer-footer">
-      <p class="drawer-contact-title">Manhattan Atelier &amp; Suite</p>
-      <p class="drawer-contact-info">181 Mercer Street, New York, NY 10012, United States</p>
-      <p class="drawer-contact-info">Tel: +1-888-777-5845</p>
-      <p class="drawer-contact-info">Email: concierge@macintoshcoat.com</p>
+    <div style="margin-top: 2rem;">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Book Private Fitting</a>
+      <p style="font-size: 0.8rem; color: #64748B; margin-top: 1rem; line-height: 1.5;">
+        181 Mercer Street, New York, NY 10012<br>+1-888-777-5845
+      </p>
     </div>
   </div>
-  <div id="drawer-overlay" class="drawer-overlay"></div>
-  <section class="page-hero">
+  <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
+
+  <!-- Page Banner -->
+  <section class="section-sm section-light" style="border-bottom: 1px solid var(--color-border);">
     <div class="container text-center">
-      <span class="hero-badge">Sartorial Scholarship</span>
-      <h1>Technical Treatises &amp; Monographs</h1>
-      <p class="lead" style="margin: 0 auto;">Exhaustive inquiries into circular knitting physics, material crystallization, and classical etiquette.</p>
+      <div class="pill-badge">AUTHORITATIVE MONOGRAPHS</div>
+      <h1>The Sartorial &amp; Material Science Journal</h1>
+      <p style="max-width: 680px; margin: 0 auto; font-size: 1.1rem; color: #475569;">
+        Peer-reviewed technical explorations into fiber crystallography, ergonomic shoulder physics, vulcanized rubber chemistry, and the history of weather defense.
+      </p>
     </div>
   </section>
-  <main class="section">
+
+  <!-- Treatises Grid -->
+  <section class="section">
     <div class="container">
-      <div class="grid-3">
-        <div class="card">
-          <div class="card-image-wrap"><img src="/assets/images/lightweight_parka_hero_banner.jpg" alt="Material Provenance & Molecular Structure in Haute Craftsmanship"><span class="card-tag">Technical Treatise</span></div>
-          <div class="card-body">
-            <h3>Material Provenance & Molecular Structure in Haute Craftsmanship</h3>
-            <p>An exhaustive inquiry into craftsmanship tolerances, material science, and sartorial ergonomics.</p>
-            <div class="card-specs"><span><strong>Author:</strong> Julian Vance</span><span><strong>Read:</strong> ~9 min</span></div>
-            <a href="/blog/material-provenance-and-fiber-crystallography.html" class="btn btn-primary btn-sm" style="margin-top: auto;">Read Full Treatise &rarr;</a>
+      <div class="lookbook-grid">
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/hero_shearling_aviator_flight_jacket.jpg" alt="Material Provenance Treatise">
           </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap"><img src="/assets/images/urban_commuter_rain_parka.jpg" alt="Micro-Engineering Tolerances: Micron-Level Precision in Luxury Finishing"><span class="card-tag">Technical Treatise</span></div>
-          <div class="card-body">
-            <h3>Micro-Engineering Tolerances: Micron-Level Precision in Luxury Finishing</h3>
-            <p>An exhaustive inquiry into craftsmanship tolerances, material science, and sartorial ergonomics.</p>
-            <div class="card-specs"><span><strong>Author:</strong> Roberto Moretti</span><span><strong>Read:</strong> ~9 min</span></div>
-            <a href="/blog/micro-engineering-tolerances-and-finishing.html" class="btn btn-primary btn-sm" style="margin-top: auto;">Read Full Treatise &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap"><img src="/assets/images/3_layer_laminate_textile.jpg" alt="Biomechanical Ergonomics: Anatomical Kinetic Dynamics in Bespoke Wear"><span class="card-tag">Technical Treatise</span></div>
-          <div class="card-body">
-            <h3>Biomechanical Ergonomics: Anatomical Kinetic Dynamics in Bespoke Wear</h3>
-            <p>An exhaustive inquiry into craftsmanship tolerances, material science, and sartorial ergonomics.</p>
-            <div class="card-specs"><span><strong>Author:</strong> Dr. Evelyn Reed</span><span><strong>Read:</strong> ~9 min</span></div>
-            <a href="/blog/biomechanical-ergonomics-and-wearer-physics.html" class="btn btn-primary btn-sm" style="margin-top: auto;">Read Full Treatise &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap"><img src="/assets/images/waterproof_membrane_cross_section.jpg" alt="Sartorial Color Theory: Harmonic Chromatic Resonance in Classical Dressing"><span class="card-tag">Technical Treatise</span></div>
-          <div class="card-body">
-            <h3>Sartorial Color Theory: Harmonic Chromatic Resonance in Classical Dressing</h3>
-            <p>An exhaustive inquiry into craftsmanship tolerances, material science, and sartorial ergonomics.</p>
-            <div class="card-specs"><span><strong>Author:</strong> Alistair Thorne</span><span><strong>Read:</strong> ~9 min</span></div>
-            <a href="/blog/sartorial-color-theory-and-formal-etiquette.html" class="btn btn-primary btn-sm" style="margin-top: auto;">Read Full Treatise &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap"><img src="/assets/images/dwr_water_droplet_beading.jpg" alt="Hygroscopic Microclimate Dynamics: Vapor Phase Dissipation and Thermal Buffer"><span class="card-tag">Technical Treatise</span></div>
-          <div class="card-body">
-            <h3>Hygroscopic Microclimate Dynamics: Vapor Phase Dissipation and Thermal Buffer</h3>
-            <p>An exhaustive inquiry into craftsmanship tolerances, material science, and sartorial ergonomics.</p>
-            <div class="card-specs"><span><strong>Author:</strong> Dr. Evelyn Reed</span><span><strong>Read:</strong> ~9 min</span></div>
-            <a href="/blog/hygroscopic-microclimate-thermodynamics.html" class="btn btn-primary btn-sm" style="margin-top: auto;">Read Full Treatise &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image-wrap"><img src="/assets/images/ultrasonic_welded_seam_tape.jpg" alt="Heritage Craftsmanship: Hand-Linked Seams and Generational Longevity"><span class="card-tag">Technical Treatise</span></div>
-          <div class="card-body">
-            <h3>Heritage Craftsmanship: Hand-Linked Seams and Generational Longevity</h3>
-            <p>An exhaustive inquiry into craftsmanship tolerances, material science, and sartorial ergonomics.</p>
-            <div class="card-specs"><span><strong>Author:</strong> Julian Vance</span><span><strong>Read:</strong> ~9 min</span></div>
-            <a href="/blog/bespoke-craftsmanship-and-heritage-methods.html" class="btn btn-primary btn-sm" style="margin-top: auto;">Read Full Treatise &rarr;</a>
+          <div class="lookbook-body">
+            <span class="coat-card-category">TEXTILE CRYSTALLOGRAPHY</span>
+            <h3 class="lookbook-title"><a href="/blog/material-provenance-and-fiber-crystallography.html">Material Provenance &amp; Molecular Structure</a></h3>
+            <p class="lookbook-desc">An empirical analysis of vulcanized natural Para rubber polymers and Scottish combed cotton fiber alignment under hydrostatic stress.</p>
+            <div style="margin-top:1rem;"><a href="/blog/material-provenance-and-fiber-crystallography.html" style="font-weight:700; color:var(--color-accent);">Read Monograph &rarr;</a></div>
           </div>
         </div>
 
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/artisan_quilted_trench_coat.jpg" alt="Micro-Engineering Treatise">
+          </div>
+          <div class="lookbook-body">
+            <span class="coat-card-category">PRECISION FINISHING</span>
+            <h3 class="lookbook-title"><a href="/blog/micro-engineering-tolerances-and-finishing.html">Micro-Engineering Tolerances &amp; Seam Sealing</a></h3>
+            <p class="lookbook-desc">Investigating hand-poured rubber adhesive solutions, single-needle lap seams, and zero-defect water impermeability.</p>
+            <div style="margin-top:1rem;"><a href="/blog/micro-engineering-tolerances-and-finishing.html" style="font-weight:700; color:var(--color-accent);">Read Monograph &rarr;</a></div>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/baffle_quilted_down_puffer_jacket.jpg" alt="Ergonomic Physics Treatise">
+          </div>
+          <div class="lookbook-body">
+            <span class="coat-card-category">KINETIC ERGONOMICS</span>
+            <h3 class="lookbook-title"><a href="/blog/biomechanical-ergonomics-and-wearer-physics.html">Biomechanical Ergonomics &amp; Wearer Physics</a></h3>
+            <p class="lookbook-desc">Drafting articulated sleeve pitch, armscye depth, and scapular expansion pleats to preserve mobility across severe squalls.</p>
+            <div style="margin-top:1rem;"><a href="/blog/biomechanical-ergonomics-and-wearer-physics.html" style="font-weight:700; color:var(--color-accent);">Read Monograph &rarr;</a></div>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/high_altitude_quilted_alpine_coat.jpg" alt="Sartorial Color Theory">
+          </div>
+          <div class="lookbook-body">
+            <span class="coat-card-category">CHROMATIC HISTIOGRAPHY</span>
+            <h3 class="lookbook-title"><a href="/blog/sartorial-color-theory-and-formal-etiquette.html">Sartorial Color Theory &amp; Formal Etiquette</a></h3>
+            <p class="lookbook-desc">Historical evolution of British military storm drabs, midnight naval obsidian, and formal outerwear etiquette in metropolitan centers.</p>
+            <div style="margin-top:1rem;"><a href="/blog/sartorial-color-theory-and-formal-etiquette.html" style="font-weight:700; color:var(--color-accent);">Read Monograph &rarr;</a></div>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/featured_raf_irvin_sheepskin_coat.jpg" alt="Microclimate Thermodynamics">
+          </div>
+          <div class="lookbook-body">
+            <span class="coat-card-category">THERMAL DEFENSE</span>
+            <h3 class="lookbook-title"><a href="/blog/hygroscopic-microclimate-thermodynamics.html">Hygroscopic Microclimate Thermodynamics</a></h3>
+            <p class="lookbook-desc">Evaluating sensible and latent heat transfer through natural sheepskin fleece and down chambers in sub-zero alpine conditions.</p>
+            <div style="margin-top:1rem;"><a href="/blog/hygroscopic-microclimate-thermodynamics.html" style="font-weight:700; color:var(--color-accent);">Read Monograph &rarr;</a></div>
+          </div>
+        </div>
+
+        <div class="lookbook-card">
+          <div class="lookbook-img">
+            <img src="/assets/images/master_leather_aviator_atelier.jpg" alt="Bespoke Heritage Methods">
+          </div>
+          <div class="lookbook-body">
+            <span class="coat-card-category">ARTISANAL HERITAGE</span>
+            <h3 class="lookbook-title"><a href="/blog/bespoke-craftsmanship-and-heritage-methods.html">Bespoke Craftsmanship &amp; Heritage Methods</a></h3>
+            <p class="lookbook-desc">Documenting bench methods, Sheffield shear cutting, and finger-taped seam protocols at our 181 Mercer Street salon.</p>
+            <div style="margin-top:1rem;"><a href="/blog/bespoke-craftsmanship-and-heritage-methods.html" style="font-weight:700; color:var(--color-accent);">Read Monograph &rarr;</a></div>
+          </div>
+        </div>
       </div>
     </div>
-  </main>
+  </section>
+
   <!-- Mandatory Global Site Footer -->
   <footer class="site-footer">
     <div class="container">
@@ -142,7 +162,7 @@
         <div class="footer-col">
           <div class="footer-brand">◈ Macintoshcoat</div>
           <p class="footer-desc">
-            The benchmark of master outerwear & bespoke tailoring. Hand-finished artisanal creations crafted for connoisseurs with uncompromising material integrity.
+            The definitive master benchmark of British vulcanized stormproof outerwear and bespoke tailoring. Engineered with Scottish cotton gabardine and vulcanized Para rubber for absolute weather defense.
           </p>
           <div class="footer-contact-item"><strong>Address:</strong> 181 Mercer Street, New York, NY 10012, United States</div>
           <div class="footer-contact-item"><strong>Phone:</strong> +1-888-777-5845</div>
@@ -152,42 +172,44 @@
           <h4 class="footer-title">Atelier Navigation</h4>
           <ul class="footer-links">
             <li><a href="/">Home Gallery</a></li>
-            <li><a href="/about.html">Atelier &amp; Craft</a></li>
-            <li><a href="/collection.html">Collections</a></li>
-            <li><a href="/blog.html">Sartorial Treatises</a></li>
-            <li><a href="/contact.html">Private Concierge</a></li>
+            <li><a href="collection.html">2026 Archive Collections</a></li>
+            <li><a href="about.html">Atelier &amp; Craftsmanship</a></li>
+            <li><a href="blog.html">Sartorial Treatises</a></li>
+            <li><a href="contact.html">Private SoHo Salon</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4 class="footer-title">Authoritative Treatises</h4>
           <ul class="footer-links">
-            <li><a href="/blog/material-provenance-and-fiber-crystallography.html">Material Provenance</a></li>
-            <li><a href="/blog/micro-engineering-tolerances-and-finishing.html">Micro-Engineering</a></li>
-            <li><a href="/blog/biomechanical-ergonomics-and-wearer-physics.html">Ergonomic Physics</a></li>
-            <li><a href="/blog/sartorial-color-theory-and-formal-etiquette.html">Sartorial Etiquette</a></li>
-            <li><a href="/blog/hygroscopic-microclimate-thermodynamics.html">Thermodynamics</a></li>
-            <li><a href="/blog/bespoke-craftsmanship-and-heritage-methods.html">Heritage Craft</a></li>
+            <li><a href="blog/material-provenance-and-fiber-crystallography.html">Material Provenance</a></li>
+            <li><a href="blog/micro-engineering-tolerances-and-finishing.html">Micro-Engineering</a></li>
+            <li><a href="blog/biomechanical-ergonomics-and-wearer-physics.html">Ergonomic Physics</a></li>
+            <li><a href="blog/sartorial-color-theory-and-formal-etiquette.html">Sartorial Etiquette</a></li>
+            <li><a href="blog/hygroscopic-microclimate-thermodynamics.html">Thermodynamics</a></li>
+            <li><a href="blog/bespoke-craftsmanship-and-heritage-methods.html">Heritage Craft</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4 class="footer-title">Manhattan Salon</h4>
-          <p style="font-size:0.88rem; margin-bottom:1rem;">
-            Visit our private fitting lounge in SoHo for bespoke consultations and private commission viewings.
+          <p style="font-size:0.9rem; line-height: 1.6;">
+            Visit our private fitting lounge in SoHo for bespoke consultations and private archive commission viewings.
           </p>
-          <p style="font-size:0.85rem; color:#F59E0B; font-weight:600;">Mon – Sat: 10:00 AM – 7:00 PM EST<br>Sunday: By Appointment</p>
+          <div class="footer-hours-box">
+            <p>Mon – Sat: 10:00 AM – 7:00 PM EST<br><span style="color:#94A3B8; font-weight:400; font-size:0.82rem;">Sunday: By Private Appointment</span></p>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 Macintoshcoat Ltd. All Rights Reserved. Master craft at 181 Mercer Street, New York, NY 10012.</p>
         <div class="footer-legal-links">
-          <a href="/privacy-policy.html">Privacy Policy</a>
-          <a href="/terms-and-conditions.html">Terms &amp; Conditions</a>
-          <a href="/disclaimer.html">Disclaimer</a>
-          <a href="/cookie-policy.html">Cookie Policy</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+          <a href="disclaimer.html">Disclaimer</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
         </div>
       </div>
     </div>
   </footer>
-  <script src="/assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Atelier &amp; Heritage Craft | Macintoshcoat</title>
-  <meta name="description" content="Discover the heritage of British vulcanized stormproof outerwear, Charles Macintosh's 1824 discovery, and our master Manhattan salon at 181 Mercer Street.">
-  <link rel="canonical" href="https://macintoshcoat.com/">
+  <title>The Atelier & Heritage Craft — Blousonlayer</title>
+  <meta name="description" content="Discover the heritage of Blousonlayer at 181 Mercer Street, New York.">
+  <link rel="canonical" href="https://blousonlayer.com/about.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
   <script>
@@ -18,164 +18,137 @@
     gtag('js', new Date());
     gtag('config', 'G-0LY0HY7L01');
   </script>
+
 </head>
 <body>
-  <!-- Top Announcement Bar -->
-  <div class="announcement-bar">
-    <span>◈ THE WINTER 2026 ARCHITECTURAL ARCHIVE &bull; 100% WATERPROOF BONDED VULCANIZED COTTON &bull; FLAGSHIP ATELIER AT 181 MERCER ST, NYC</span>
-  </div>
-
-  <!-- Mandatory Global Site Header -->
+  <!-- Mandatory Global Site Header (Exactly 1 per page) -->
   <header class="site-header">
     <div class="header-container">
-      <a href="/" class="brand-logo">
-        <span class="brand-mark">◈</span>
-        <div>
-          <span>Macintoshcoat</span>
-          <span class="brand-sub">London &bull; New York</span>
-        </div>
+      <a href="/" class="brand-logo" aria-label="Blousonlayer Home">
+        <span class="logo-mark">◈</span>
+        <span class="logo-text">Blousonlayer</span>
       </a>
-      <nav class="desktop-nav">
-        <a href="/" class="nav-link">Home</a><a href="collection.html" class="nav-link">Collections</a><a href="about.html" class="nav-link active">Atelier &amp; Craft</a><a href="blog.html" class="nav-link">Sartorial Treatises</a><a href="contact.html" class="nav-link">SoHo Salon</a>
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/about.html" class="nav-link active">The Atelier</a>
+        <a href="/collection.html" class="nav-link">Collections</a>
+        <a href="/blog.html" class="nav-link">Treatises</a>
+        <a href="/contact.html" class="nav-link">Concierge</a>
       </nav>
       <div class="header-actions">
-        <a href="contact.html" class="btn btn-primary">Book Salon Fitting</a>
-        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
-          <span></span><span></span><span></span>
+        <a href="/collection.html" class="btn btn-sm btn-outline">Explore Catalog</a>
+        <button id="drawer-toggle" class="mobile-toggle" aria-label="Open Navigation Menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
         </button>
       </div>
     </div>
   </header>
 
-  <!-- Mandatory Mobile Drawer -->
-  <div class="mobile-drawer" id="mobile-drawer">
-    <button class="drawer-close" id="drawer-close" aria-label="Close Menu">&times;</button>
-    <div>
-      <div class="brand-logo" style="margin-bottom: 2rem;">◈ Macintoshcoat</div>
-      <ul class="mobile-nav-links">
-        <li><a href="/">Home</a></li><li><a href="collection.html">Collections</a></li><li><a href="about.html">Atelier &amp; Craft</a></li><li><a href="blog.html">Sartorial Treatises</a></li><li><a href="contact.html">SoHo Salon</a></li>
-      </ul>
+  <!-- Mandatory Mobile Navigation Drawer (Exactly 1 per page) -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">Blousonlayer</div>
+      <button id="drawer-close" class="drawer-close-btn" aria-label="Close Navigation Menu">&times;</button>
     </div>
-    <div style="margin-top: 2rem;">
-      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Book Private Fitting</a>
-      <p style="font-size: 0.8rem; color: #64748B; margin-top: 1rem; line-height: 1.5;">
-        181 Mercer Street, New York, NY 10012<br>+1-888-777-5845
-      </p>
+    <nav class="drawer-nav" aria-label="Mobile Navigation">
+      <a href="/" class="drawer-link">Home</a>
+      <a href="/about.html" class="drawer-link active">The Atelier &amp; Craft</a>
+      <a href="/collection.html" class="drawer-link">Curated Suede & Cashmere Blouson Vitrine</a>
+      <a href="/blog.html" class="drawer-link">Sartorial Treatises</a>
+      <a href="/contact.html" class="drawer-link">Private Concierge</a>
+    </nav>
+    <div class="drawer-footer">
+      <p class="drawer-contact-title">Manhattan Atelier &amp; Suite</p>
+      <p class="drawer-contact-info">181 Mercer Street, New York, NY 10012, United States</p>
+      <p class="drawer-contact-info">Tel: +1-888-777-5845</p>
+      <p class="drawer-contact-info">Email: concierge@blousonlayer.com</p>
     </div>
   </div>
-  <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
-
-  <!-- Page Banner -->
-  <section class="section-sm section-light" style="border-bottom: 1px solid var(--color-border);">
-    <div class="container text-center">
-      <div class="pill-badge">SINCE 1824 &bull; SOHO FLAGSHIP</div>
-      <h1>Two Centuries of Stormproof Mastery</h1>
-      <p style="max-width: 720px; margin: 0 auto; font-size: 1.15rem; color: #475569;">
-        From Charles Macintosh’s revolutionary vulcanization patents in Glasgow to our contemporary bespoke salon in New York, we forge architectural defense against the world’s most hostile squalls.
-      </p>
+  <div id="drawer-overlay" class="drawer-overlay"></div>
+  <section class="page-hero">
+    <div class="container">
+      <span class="hero-badge">Heritage &bull; Precision &bull; Bespoke Craft</span>
+      <h1>The Atelier &amp; Architectural Craft</h1>
+      <p class="lead">Dedicated to the restoration of artisanal excellence from our flagship showroom at 181 Mercer Street in SoHo to our European workshops.</p>
     </div>
   </section>
-
-  <!-- Story Section 1 -->
-  <section class="section">
+  <main class="section">
     <div class="container">
-      <div class="atelier-grid">
+      <div class="grid-2" style="margin-bottom: 5rem;">
         <div>
-          <div class="pill-badge">HERITAGE DISCOVERY</div>
-          <h2>The 1824 Molecular Breakthrough</h2>
-          <p>
-            In 1824, Scottish chemist Charles Macintosh discovered that by dissolving natural Para rubber in coal-tar naphtha, he could apply a thin, flexible elastomer solution between two plies of woven cotton gabardine. The result was the world’s first completely impervious, waterproof textile that did not turn brittle in arctic freezing or melt in summer warmth.
-          </p>
-          <p>
-            Today, Macintoshcoat upholds this unbroken Scottish tradition. While commercial brands migrated to cheap polyurethane petroleum coatings that decay and crack in a few seasons, our vulcanized bonded cotton remains chemically stable for over three decades of severe downpours.
-          </p>
+          <div class="section-subtitle">Founding Philosophy</div>
+          <h2>Born from the Search for Perfection</h2>
+          <p>Blousonlayer was founded with a singular, uncompromising vision: to create the finest blouson piece in existence. For decades, commercial industrialization diluted craftsmanship with synthetic short-cuts. We set out to reverse this decline through raw material purity, micro-gauge precision, and classical hand finishing.</p>
+          <p>Every piece that emerges from our workshops is an engineered bridge between timeless tailoring and modern anatomical physics, created for patrons who demand perfection in every stitch.</p>
         </div>
-        <div class="atelier-image-frame">
-          <img src="/assets/images/master_leather_aviator_atelier.jpg" alt="Master Outerwear Tailor Atelier Bench">
+        <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md);"><img src="/assets/images/collection_shearling.jpg" alt="Atelier craft"></div>
+      </div>
+      <div class="grid-2">
+        <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md);"><img src="/assets/images/hero_alpine_coat.jpg" alt="Artisan inspection"></div>
+        <div>
+          <div class="section-subtitle">181 Mercer Street</div>
+          <h2>Our Manhattan Flagship Suite</h2>
+          <p>Situated in the historic cast-iron district of SoHo, our private showroom invites patrons to view raw yarn and material spools, inspect construction tolerances under optical magnification, and receive personal fitting consultations.</p>
+          <p><strong>Address:</strong> 181 Mercer Street, New York, NY 10012, United States<br><strong>Phone:</strong> +1-888-777-5845<br><strong>Email:</strong> concierge@blousonlayer.com</p>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Story Section 2 -->
-  <section class="section section-light">
-    <div class="container">
-      <div class="atelier-grid">
-        <div class="salon-visual">
-          <img src="/assets/images/mercer_street_aviator_salon.jpg" alt="Flagship Salon at 181 Mercer Street">
-        </div>
-        <div>
-          <div class="pill-badge">THE MANHATTAN ATELIER</div>
-          <h2>The 181 Mercer Street Flagship Salon</h2>
-          <p>
-            Our SoHo flagship at 181 Mercer Street unites Old-World Scottish manufacturing with private Manhattan concierge service. Here, clients engage in 48-measurement anatomical fitting sessions to create bespoke outercoats calibrated to their idiosyncratic posture and aesthetic desires.
-          </p>
-          <p>
-            Every commission is cataloged in our archival registry. We offer lifetime seam servicing, re-proofing, button replacements, and bespoke sleeve adjustments, ensuring that your Macintoshcoat remains an enduring family heirloom.
-          </p>
-          <div style="margin-top: 2rem;">
-            <a href="/contact.html" class="btn btn-primary">Schedule A Private Salon Fitting</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  </main>
   <!-- Mandatory Global Site Footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <div class="footer-brand">◈ Macintoshcoat</div>
+          <div class="footer-brand">◈ Blousonlayer</div>
           <p class="footer-desc">
-            The definitive master benchmark of British vulcanized stormproof outerwear and bespoke tailoring. Engineered with Scottish cotton gabardine and vulcanized Para rubber for absolute weather defense.
+            The benchmark of haute suede blousons & transitional layering. Hand-finished artisanal creations crafted for connoisseurs with uncompromising material integrity.
           </p>
           <div class="footer-contact-item"><strong>Address:</strong> 181 Mercer Street, New York, NY 10012, United States</div>
           <div class="footer-contact-item"><strong>Phone:</strong> +1-888-777-5845</div>
-          <div class="footer-contact-item"><strong>Concierge:</strong> concierge@macintoshcoat.com</div>
+          <div class="footer-contact-item"><strong>Concierge:</strong> concierge@blousonlayer.com</div>
         </div>
         <div class="footer-col">
           <h4 class="footer-title">Atelier Navigation</h4>
           <ul class="footer-links">
             <li><a href="/">Home Gallery</a></li>
-            <li><a href="collection.html">2026 Archive Collections</a></li>
-            <li><a href="about.html">Atelier &amp; Craftsmanship</a></li>
-            <li><a href="blog.html">Sartorial Treatises</a></li>
-            <li><a href="contact.html">Private SoHo Salon</a></li>
+            <li><a href="/about.html">Atelier &amp; Craft</a></li>
+            <li><a href="/collection.html">Collections</a></li>
+            <li><a href="/blog.html">Sartorial Treatises</a></li>
+            <li><a href="/contact.html">Private Concierge</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4 class="footer-title">Authoritative Treatises</h4>
           <ul class="footer-links">
-            <li><a href="blog/material-provenance-and-fiber-crystallography.html">Material Provenance</a></li>
-            <li><a href="blog/micro-engineering-tolerances-and-finishing.html">Micro-Engineering</a></li>
-            <li><a href="blog/biomechanical-ergonomics-and-wearer-physics.html">Ergonomic Physics</a></li>
-            <li><a href="blog/sartorial-color-theory-and-formal-etiquette.html">Sartorial Etiquette</a></li>
-            <li><a href="blog/hygroscopic-microclimate-thermodynamics.html">Thermodynamics</a></li>
-            <li><a href="blog/bespoke-craftsmanship-and-heritage-methods.html">Heritage Craft</a></li>
+            <li><a href="/blog/material-provenance-and-fiber-crystallography.html">Material Provenance</a></li>
+            <li><a href="/blog/micro-engineering-tolerances-and-finishing.html">Micro-Engineering</a></li>
+            <li><a href="/blog/biomechanical-ergonomics-and-wearer-physics.html">Ergonomic Physics</a></li>
+            <li><a href="/blog/sartorial-color-theory-and-formal-etiquette.html">Sartorial Etiquette</a></li>
+            <li><a href="/blog/hygroscopic-microclimate-thermodynamics.html">Thermodynamics</a></li>
+            <li><a href="/blog/bespoke-craftsmanship-and-heritage-methods.html">Heritage Craft</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4 class="footer-title">Manhattan Salon</h4>
-          <p style="font-size:0.9rem; line-height: 1.6;">
-            Visit our private fitting lounge in SoHo for bespoke consultations and private archive commission viewings.
+          <p style="font-size:0.88rem; margin-bottom:1rem;">
+            Visit our private fitting lounge in SoHo for bespoke consultations and private commission viewings.
           </p>
-          <div class="footer-hours-box">
-            <p>Mon – Sat: 10:00 AM – 7:00 PM EST<br><span style="color:#94A3B8; font-weight:400; font-size:0.82rem;">Sunday: By Private Appointment</span></p>
-          </div>
+          <p style="font-size:0.85rem; color:#F59E0B; font-weight:600;">Mon – Sat: 10:00 AM – 7:00 PM EST<br>Sunday: By Appointment</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 Macintoshcoat Ltd. All Rights Reserved. Master craft at 181 Mercer Street, New York, NY 10012.</p>
+        <p>&copy; 2026 Blousonlayer Ltd. All Rights Reserved. Master craft at 181 Mercer Street, New York, NY 10012.</p>
         <div class="footer-legal-links">
-          <a href="privacy-policy.html">Privacy Policy</a>
-          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
-          <a href="disclaimer.html">Disclaimer</a>
-          <a href="cookie-policy.html">Cookie Policy</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+          <a href="/terms-and-conditions.html">Terms &amp; Conditions</a>
+          <a href="/disclaimer.html">Disclaimer</a>
+          <a href="/cookie-policy.html">Cookie Policy</a>
         </div>
       </div>
     </div>
   </footer>
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>

@@ -1,26 +1,15 @@
-# Design Registry — Macintoshcoat
+# Design Registry — Blousonlayer
 
-**Brand:** Macintoshcoat  
-**Niche:** Master Outerwear & Bespoke Stormcoat Tailoring  
-**Theme:** Haute Alpine Obsidian & Sartorial Platinum Flagship Theme  
-**Layout:** Monolithic Split-Hero & 12-Section Metrology Outerwear Flagship Layout  
-**Address:** 181 Mercer Street, New York, NY 10012, United States  
-**Phone:** +1-888-777-5845  
-
-## Color Palette
-- Primary Canvas: #0B0F19 (Obsidian Midnight Navy)
-- Primary Dark / Stealth: #05070C
-- Accent / Cobalt: #2563EB
-- Warm Amber Accent: #F59E0B
-- Studio Clean Surface: #F8FAFC
-- Crisp Background: #FFFFFF
-- High-Contrast Footer: #0B0E14 (Crisp Silver & Bright White Typography #FFFFFF / #F1F5F9)
+**Brand:** Blousonlayer  \n**Niche:** Haute Suede Blousons & Transitional Layering  \n**Theme:** Haute Parisian Suede & Cashmere Blouson Paid Theme  \n**Layout:** Luxury Sartorial Blouson Paid Theme Layout  \n**Address:** 181 Mercer Street, New York, NY 10012, United States  \n**Phone:** +1-888-777-5845  \n\n## Colors
+- Primary: `#181411`
+- Dark: `#0F0C0A`
+- Accent: `#9A3412`
+- Gold: `#C68A4C`
 
 ## Standards Compliance
-- Exactly 1 Header, 1 Mobile Drawer per page with synchronized toggle in ssets/js/main.js
-- Google Analytics tag G-0LY0HY7L01 in head of every HTML/PHP page
-- Google Fonts (Playfair Display & Plus Jakarta Sans) loaded via <link> in <head>
-- Substantive legal policy paragraphs strictly 5-6 lines (60-110 words)
-- 6 Blog Treatises strictly >= 1,200 words with structured metrology tables, FAQs, author bios, and JSON-LD schemas
-- Main page (index.php) features 12 comprehensive architectural outerwear sections with high-contrast legibility
-- Exactly 20 authentic high-resolution outerwear images (>20KB, 100% unique SHA256 hashes) documented in IMAGE_REGISTRY.md
+- Exactly 1 Header, 1 Drawer
+- GA tag G-0LY0HY7L01 in head
+- Google fonts via <link>
+- Substantive policy paragraphs strictly 5-6 lines (60-110 words)
+- 6 Blog Treatises >= 1200 words with tables, FAQs, schemas
+- Main page has >= 10 distinct sections with high-contrast legibility
